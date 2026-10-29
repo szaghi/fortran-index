@@ -6,7 +6,7 @@ title: 1. Find a package
 
 You need a Fortran library that writes JSON. This chapter registers the index and finds one.
 
-You need FoBiS.py 3.11 or newer:
+You need FoBiS.py 3.11.1 or newer:
 
 ```bash
 pip install --upgrade FoBiS.py

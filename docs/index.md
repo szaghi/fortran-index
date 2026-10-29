@@ -42,6 +42,8 @@ features:
 
 ## Quick start
 
+![fobis index add, search, info and add with this index](/gifs/18_packages.gif)
+
 ```bash
 fobis index add szaghi https://github.com/szaghi/fortran-index
 fobis search json
@@ -67,7 +69,7 @@ export PKG_CONFIG_PATH=$(fobis pkg path M_strings --pkgconfig)
 gfortran main.f90 $(pkg-config --cflags --libs M_strings)
 ```
 
-Requires FoBiS.py 3.11 or newer (`pip install --upgrade FoBiS.py`).
+Requires FoBiS.py 3.11.1 or newer (`pip install --upgrade FoBiS.py`).
 
 ## How it fits together
 

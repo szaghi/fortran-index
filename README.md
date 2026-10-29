@@ -13,6 +13,8 @@
 |:---:|:---:|:---:|:---:|
 | 📦 **FoBiS and fpm packages**<br>every package has a `fobos` or an `fpm.toml` | 🧭 **Modules catalogue**<br>who provides each module, clashes flagged | 🌐 **One index among many**<br>FoBiS reads several; follow or fork this one | 🆓 **Public domain**<br>CC0-1.0: copy, merge, mirror |
 
+![fobis index add, search, info and add with this index](docs/public/gifs/18_packages.gif)
+
 For full documentation (tutorial, cookbook, package and module catalogues, index format) see the
 [fortran-index website](https://szaghi.github.io/fortran-index/).
 
@@ -35,7 +37,7 @@ licence.
 
 ## Quick start
 
-Requires [FoBiS.py](https://github.com/szaghi/FoBiS) 3.11 or newer (`pip install --upgrade FoBiS.py`).
+Requires [FoBiS.py](https://github.com/szaghi/FoBiS) 3.11.1 or newer (`pip install --upgrade FoBiS.py`).
 
 ```bash
 fobis index add szaghi https://github.com/szaghi/fortran-index
