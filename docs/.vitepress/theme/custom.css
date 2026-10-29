@@ -1,0 +1,10 @@
+/* the catalogue pages (pageClass: catalogue) use the whole width: their tables have five columns */
+.catalogue .VPDoc .container,
+.catalogue .VPDoc .content,
+.catalogue .VPDoc .content-container {
+  max-width: 1280px !important;
+}
+.catalogue .vp-doc table {
+  display: table;
+  width: 100%;
+}
