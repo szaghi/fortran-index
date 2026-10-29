@@ -13,7 +13,7 @@
 |:---:|:---:|:---:|:---:|
 | 📦 **FoBiS and fpm packages**<br>every package has a `fobos` or an `fpm.toml` | 🧭 **Modules catalogue**<br>who provides each module, clashes flagged | 🌐 **One index among many**<br>FoBiS reads several; follow or fork this one | 🆓 **Public domain**<br>CC0-1.0: copy, merge, mirror |
 
-For full documentation (guide, package and module catalogues, index format) see the
+For full documentation (tutorial, cookbook, package and module catalogues, index format) see the
 [fortran-index website](https://szaghi.github.io/fortran-index/).
 
 ---
@@ -23,7 +23,7 @@ For full documentation (guide, package and module catalogues, index format) see 
 - Stefano Zaghi — [@szaghi](https://github.com/szaghi)
 
 Every listed package belongs to its authors: the index only says where to find it. Contributions are welcome — see
-the [Contributing](https://szaghi.github.io/fortran-index/guide/contributing) page.
+the [Contributing](https://szaghi.github.io/fortran-index/reference/contributing) page.
 
 ## Copyrights
 
@@ -80,7 +80,7 @@ provides    = ["project", "project_kinds"]
 ```
 
 A package needs a public source and a `fobos` or an `fpm.toml`; semantic-version tags are strongly recommended. See
-[Adding a package](https://szaghi.github.io/fortran-index/guide/adding) for names, module lists and CMake projects.
+the [tutorial](https://szaghi.github.io/fortran-index/tutorial/04-publish) and the [cookbook](https://szaghi.github.io/fortran-index/cookbook) for CMake projects and releases without git.
 
 ## Regenerate
 

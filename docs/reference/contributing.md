@@ -9,7 +9,7 @@ Contributions are welcome.
 ## Propose a package
 
 Open a pull request adding the entry to `index.toml` and its source to `seeds.toml` (see
-[Adding a package](./adding)). The check workflow validates the schema; a maintainer merges.
+[Publish your own package](../tutorial/04-publish) and the [cookbook](../cookbook#add-your-package)). The check workflow validates the schema; a maintainer merges.
 
 ## Report a problem with an entry
 

@@ -1,10 +1,51 @@
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
+// One flat sidebar for the whole site: every page is two clicks away at most.
+const sidebar = [
+  {
+    text: 'Start',
+    items: [
+      { text: 'About', link: '/about' },
+    ],
+  },
+  {
+    text: 'Tutorial',
+    items: [
+      { text: '1. Find a package', link: '/tutorial/01-find' },
+      { text: '2. Use it in a project', link: '/tutorial/02-use' },
+      { text: '3. Install it for your compiler', link: '/tutorial/03-install' },
+      { text: '4. Publish your own package', link: '/tutorial/04-publish' },
+    ],
+  },
+  {
+    text: 'Cookbook',
+    items: [
+      { text: 'All recipes', link: '/cookbook' },
+    ],
+  },
+  {
+    text: 'Catalogue',
+    items: [
+      { text: 'Packages', link: '/packages/' },
+      { text: 'Modules', link: '/packages/modules' },
+    ],
+  },
+  {
+    text: 'Reference',
+    items: [
+      { text: 'The index format', link: '/reference/index-format' },
+      { text: 'Maintaining', link: '/reference/maintaining' },
+      { text: 'Contributing', link: '/reference/contributing' },
+    ],
+  },
+]
+
 export default withMermaid({
   title: 'fortran-index',
   description: 'A package index for FoBiS.py: Fortran projects built with FoBiS or fpm, listed by source URL',
   base: '/fortran-index/',
   lastUpdated: true,
+  cleanUrls: true,
   markdown: {
     languageAlias: {
       'fortran': 'fortran-free-form',
@@ -13,61 +54,16 @@ export default withMermaid({
   },
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'Guide',
-        items: [
-          { text: 'About', link: '/guide/' },
-          { text: 'Using the index', link: '/guide/usage' },
-          { text: 'Adding a package', link: '/guide/adding' },
-          { text: 'The index format', link: '/guide/format' },
-          { text: 'Maintaining', link: '/guide/maintaining' },
-          { text: 'Contributing', link: '/guide/contributing' },
-        ],
-      },
-      { text: 'Packages', link: '/packages/' },
+      { text: 'Tutorial', link: '/tutorial/01-find', activeMatch: '^/tutorial/' },
+      { text: 'Cookbook', link: '/cookbook' },
+      { text: 'Packages', link: '/packages/', activeMatch: '^/packages/$' },
       { text: 'Modules', link: '/packages/modules' },
+      { text: 'Reference', link: '/reference/index-format', activeMatch: '^/reference/' },
       { text: 'FoBiS.py', link: 'https://szaghi.github.io/FoBiS/cookbook/packages' },
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Introduction',
-          items: [
-            { text: 'About', link: '/guide/' },
-          ],
-        },
-        {
-          text: 'Getting Started',
-          items: [
-            { text: 'Using the index', link: '/guide/usage' },
-            { text: 'Adding a package', link: '/guide/adding' },
-          ],
-        },
-        {
-          text: 'Reference',
-          items: [
-            { text: 'The index format', link: '/guide/format' },
-            { text: 'Maintaining', link: '/guide/maintaining' },
-          ],
-        },
-        {
-          text: 'Project',
-          items: [
-            { text: 'Contributing', link: '/guide/contributing' },
-          ],
-        },
-      ],
-      '/packages/': [
-        {
-          text: 'Catalogue',
-          items: [
-            { text: 'Packages', link: '/packages/' },
-            { text: 'Modules', link: '/packages/modules' },
-          ],
-        },
-      ],
-    },
+    sidebar,
+    outline: { level: [2, 2] },
+    docFooter: { prev: 'Previous', next: 'Next' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/szaghi/fortran-index' }],
     editLink: {
       pattern: 'https://github.com/szaghi/fortran-index/edit/main/docs/:path',
@@ -77,7 +73,7 @@ export default withMermaid({
       provider: 'local',
     },
     footer: {
-      message: 'The index is released under CC0-1.0.',
+      message: 'The index is released under CC0-1.0. Each package keeps its own licence.',
     },
   },
   mermaid: {},

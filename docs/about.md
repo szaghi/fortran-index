@@ -1,5 +1,5 @@
 ---
-title: About fortran-index
+title: About
 ---
 
 # About fortran-index
@@ -33,13 +33,13 @@ hashes, archive checksums), so a moved tag is noticed.
 
 Public repositories with a `fobos` or an `fpm.toml` at their root, that are not forks or archived. The
 [catalogue](/packages/) shows every package and the [modules](/packages/modules) their libraries provide. Anyone can
-propose a package: see [Adding a package](./adding).
+propose a package: see [Publish your own package](./tutorial/04-publish).
 
 ## Authors
 
 - Stefano Zaghi — [@szaghi](https://github.com/szaghi)
 
-Each listed package belongs to its authors. Contributions are welcome — see the [Contributing](contributing) page.
+Each listed package belongs to its authors. Contributions are welcome — see the [Contributing](./reference/contributing) page.
 
 ## Copyrights
 

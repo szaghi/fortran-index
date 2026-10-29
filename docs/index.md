@@ -7,8 +7,11 @@ hero:
   tagline: Fortran projects built with FoBiS or fpm, found by name, used by source URL. No server, no gatekeeper.
   actions:
     - theme: brand
-      text: Guide
-      link: /guide/
+      text: Tutorial
+      link: /tutorial/01-find
+    - theme: alt
+      text: Cookbook
+      link: /cookbook
     - theme: alt
       text: Browse packages
       link: /packages/
@@ -49,10 +52,12 @@ fobis info json-fortran
 In a project:
 
 ```bash
-fobis add json-fortran     # writes "json-fortran = https://github.com/jacobwilliams/json-fortran :: semver=^9.3.1"
+fobis add json-fortran
 fobis fetch
 fobis build
 ```
+
+`fobis add` writes `json-fortran = https://github.com/jacobwilliams/json-fortran :: semver=^9.3.1` into the fobos.
 
 For your compiler, outside any project:
 
@@ -79,7 +84,7 @@ flowchart LR
 - Stefano Zaghi — [@szaghi](https://github.com/szaghi)
 
 Every package belongs to its authors: the index lists where to find them. Contributions are welcome — see the
-[Contributing](/guide/contributing) page.
+[Contributing](/reference/contributing) page.
 
 ## Copyrights
 
