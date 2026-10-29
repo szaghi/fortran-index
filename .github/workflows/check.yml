@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "FoBiS.py>=3.11"
+      - name: Schema and names
+        run: fobis index check index.toml
+      - name: Every source readable and tagged (report)
+        run: fobis index check index.toml --online
+        continue-on-error: true

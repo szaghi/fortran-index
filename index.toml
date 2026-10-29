@@ -1,0 +1,996 @@
+schema = 1
+name = "szaghi"
+description = "Fortran packages built with FoBiS or fpm (szaghi, urbanjost, jacobwilliams and the projects they collaborate on)"
+
+[package.1976-standard-atmosphere]
+source = "https://github.com/jacobwilliams/1976-standard-atmosphere"
+description = "1976 Standard Atmosphere in Modern Fortran"
+license = "BSD-3"
+provides = ["coesa_module"]
+
+[package.adam]
+source = "https://github.com/szaghi/adam"
+description = "Accelerated fluid Dynamics on Adaptive Mesh refinement grids"
+provides = ["adam_adam_object", "adam_amr_object", "adam_blanes_moan_object", "adam_cfm_object", "adam_chase_bc_object", "adam_chase_common_library", "adam_chase_common_object", "adam_chase_cpu_object", "adam_chase_ic_object", "adam_chase_io_object", "adam_chase_parameters", "adam_chase_physics_object", "adam_chase_riemann_library", "adam_chase_time_object", "adam_common_library", "adam_eos_ic_object", "adam_equation_flame_gpu_object", "adam_equation_nasto_gpu_object", "adam_fdv_operators_library", "adam_field_gmp_kernels", "adam_field_gmp_object", "adam_field_nvf_kernels", "adam_field_nvf_object", "adam_field_object", "adam_flail_object", "adam_fnl_fdv_operators_library", "adam_fnl_field_kernels", "adam_fnl_field_object", "adam_fnl_ib_kernels", "adam_fnl_ib_object", "adam_fnl_library", "adam_fnl_maps_object", "adam_fnl_mpih_object", "adam_fnl_rk_kernels", "adam_fnl_rk_object", "adam_fnl_weno_kernels", "adam_fnl_weno_object", "adam_gmp_library", "adam_gmp_utils", "adam_grid_object", "adam_ib_gmp_kernels", "adam_ib_gmp_object", "adam_ib_nvf_kernels", "adam_ib_nvf_object", "adam_ib_object", "adam_io_object", "adam_leapfrog_object", "adam_maps_gmp_object", "adam_maps_nvf_object", "adam_maps_object", "adam_memory_gmp_library", "adam_memory_nvf_library", "adam_mpih_gmp_object", "adam_mpih_nvf_object", "adam_mpih_object", "adam_nasto_bc_object", "adam_nasto_common_library", "adam_nasto_common_object", "adam_nasto_cpu_cns", "adam_nasto_cpu_object", "adam_nasto_eos_object", "adam_nasto_fnl_cns_kernels", "adam_nasto_fnl_kernels", "adam_nasto_fnl_library", "adam_nasto_fnl_object", "adam_nasto_gmp_cns_kernels", "adam_nasto_gmp_kernels", "adam_nasto_gmp_object", "adam_nasto_ic_object", "adam_nasto_io_object", "adam_nasto_nvf_cns_kernels", "adam_nasto_nvf_kernels", "adam_nasto_nvf_object", "adam_nasto_parameters", "adam_nasto_physics_object", "adam_nasto_time_object", "adam_nvf_library", "adam_parameters", "adam_patch_bc_object", "adam_patch_common_library", "adam_patch_common_object", "adam_patch_cpu_object", "adam_patch_ic_object", "adam_patch_io_object", "adam_patch_time_object", "adam_prism_bc_object", "adam_prism_coil_object", "adam_prism_common_library", "adam_prism_common_object", "adam_prism_cpu_object", "adam_prism_external_fields_object", "adam_prism_fnl_coil_object", "adam_prism_fnl_external_fields_kernels", "adam_prism_fnl_fwlayer_object", "adam_prism_fnl_kernels", "adam_prism_fnl_library", "adam_prism_fnl_object", "adam_prism_fwlayer_object", "adam_prism_ic_object", "adam_prism_io_object", "adam_prism_leapfrog_pic_object", "adam_prism_numerics_object", "adam_prism_parameters", "adam_prism_particle_injection_object", "adam_prism_physics_object", "adam_prism_pic_object", "adam_prism_riemann_library", "adam_prism_rk_bc_object", "adam_prism_rk_pic_object", "adam_prism_time_object", "adam_riemann_euler_library", "adam_rk_gmp_kernels", "adam_rk_gmp_object", "adam_rk_nvf_kernels", "adam_rk_nvf_object", "adam_rk_object", "adam_slices_object", "adam_tree_bucket_object", "adam_tree_node_object", "adam_tree_object", "adam_weno_gmp_object", "adam_weno_nvf_kernels", "adam_weno_nvf_object", "adam_weno_object", "cgal_wrappers", "h5fortran_types"]
+
+[package.AoC-2021]
+source = "https://github.com/jacobwilliams/AoC-2021"
+description = "Advent of Code 2021 with Fortran"
+license = "BSD-3"
+provides = ["aoc_utilities"]
+
+[package.AoC-2022]
+source = "https://github.com/jacobwilliams/AoC-2022"
+description = "Advent of Code 2022 with Fortran"
+license = "BSD-3"
+provides = ["aoc_utilities"]
+
+[package.AoC-2023]
+source = "https://github.com/jacobwilliams/AoC-2023"
+description = "Advent of Code 2023 with Fortran"
+license = "BSD-3"
+provides = ["aoc_cache_module", "aoc_utilities"]
+
+[package.AoC-2024]
+source = "https://github.com/jacobwilliams/AoC-2024"
+description = "Advent of Code 2024 with Fortran"
+license = "BSD-3"
+provides = ["aoc_utilities"]
+
+[package.AoC-2025]
+source = "https://github.com/jacobwilliams/AoC-2025"
+description = "Advent of Code 2025 with Fortran"
+license = "BSD-3"
+provides = ["aoc_utilities"]
+
+[package.arclength]
+source = "https://github.com/jacobwilliams/arclength"
+description = "Nothing to see here."
+license = "license"
+
+[package.argv-fortran]
+source = "https://github.com/jacobwilliams/argv-fortran"
+description = "A better get_command_argument for Fortran"
+license = "BSD-3"
+provides = ["argv_module"]
+
+[package.astro-fortran]
+source = "https://github.com/jacobwilliams/astro-fortran"
+description = "A refactoring of the IAU SOFA library to modern Fortran standards"
+license = "BSD-3"
+provides = ["astro_module"]
+
+[package.BeFoR64]
+source = "https://github.com/szaghi/BeFoR64"
+description = "Base64 encoding/decoding library for FoRtran poor men"
+license = "Multiple licenses"
+provides = ["befor64", "befor64_pack_data_m"]
+
+[package.brouwer-elements]
+source = "https://github.com/jacobwilliams/brouwer-elements"
+description = "Fortran implementation of Brouwer-Lyddane Mean Elements"
+license = "BSD"
+provides = ["brouwer_module"]
+
+[package.bspline-fortran]
+source = "https://github.com/jacobwilliams/bspline-fortran"
+description = "Multidimensional B-Spline Interpolation of Data on a Regular Grid"
+license = "BSD"
+provides = ["bspline_blas_module", "bspline_defc_module", "bspline_kinds_module", "bspline_module", "bspline_oo_module", "bspline_sub_module"]
+
+[package.carlson-elliptic-integrals]
+source = "https://github.com/jacobwilliams/carlson-elliptic-integrals"
+description = "Carlson symmetric forms of elliptic integrals"
+license = "BSD-3"
+provides = ["carlson_elliptic_module"]
+
+[package.ci-tester]
+source = "https://github.com/jacobwilliams/ci-tester"
+description = "testing GitHub Actions CI + Fortran"
+license = "BSD-3"
+provides = ["test_module"]
+
+[package.conmax]
+source = "https://github.com/jacobwilliams/conmax"
+description = "Refactored CONMAX Library"
+license = "BSD-3"
+provides = ["conmax_module"]
+
+[package.conmin]
+source = "https://github.com/jacobwilliams/conmin"
+description = "Modern Fortran edition of conmin"
+license = "LGPL"
+provides = ["conmin_module"]
+
+[package.csv-fortran]
+source = "https://github.com/jacobwilliams/csv-fortran"
+description = "Read and Write CSV Files Using Modern Fortran"
+license = "BSD-3"
+provides = ["csv_kinds", "csv_module", "csv_parameters", "csv_utilities"]
+
+[package.daglib]
+source = "https://github.com/jacobwilliams/daglib"
+description = "Directed Acyclic Graphs With Modern Fortran"
+license = "BSD-3"
+provides = ["dag_module"]
+
+[package.daqp-fortran]
+source = "https://github.com/jacobwilliams/daqp-fortran"
+description = "Modern Fortran port of DAQP, a dual active-set solver for dense convex quadratic programs"
+license = "MIT"
+provides = ["daqp_core", "daqp_eq_elim", "daqp_kinds", "daqp_module", "daqp_types"]
+
+[package.ddeabm]
+source = "https://github.com/jacobwilliams/ddeabm"
+description = "Modern Fortran Implementation of the DDEABM Adams-Bashforth Algorithm"
+license = "BSD-3"
+provides = ["ddeabm_module"]
+
+[package.diff]
+source = "https://github.com/jacobwilliams/diff"
+description = "Numerical Differentiation of a User Defined Function"
+license = "BSD-3"
+provides = ["diff_module"]
+
+[package.dop853]
+source = "https://github.com/jacobwilliams/dop853"
+description = "Modern Fortran Edition of Hairer's DOP853 ODE Solver"
+license = "BSD"
+provides = ["dop853_module"]
+
+[package.dvode]
+source = "https://github.com/jacobwilliams/dvode"
+description = "Modern Fortran Edition of the DVODE ODE Solver"
+license = "BSD-3"
+provides = ["dvode_blas_module", "dvode_kinds_module", "dvode_linpack_module", "dvode_module"]
+
+[package.easy]
+source = "https://github.com/urbanjost/easy"
+description = "easy -  an example github fpm repository"
+license = "license"
+provides = ["easy", "easy__sample"]
+
+[package.FACE]
+source = "https://github.com/szaghi/FACE"
+description = "Fortran Ansi Colors (and Styles) Environment"
+license = "multi-licensing system: GPLv3, BSD2, BSD3, and MIT"
+provides = ["face"]
+
+[package.fformat]
+source = "https://github.com/jacobwilliams/fformat"
+description = "A formatter for modern Fortran source code"
+license = "MIT"
+provides = ["ffmt_case", "ffmt_cli", "ffmt_config", "ffmt_constructs", "ffmt_diff", "ffmt_directives", "ffmt_format", "ffmt_fs", "ffmt_io", "ffmt_layout", "ffmt_lexer", "ffmt_linebreak", "ffmt_options", "ffmt_relational", "ffmt_settings", "ffmt_source", "ffmt_statements", "ffmt_strings", "ffmt_structure", "ffmt_tokens", "ffmt_use_sort", "ffmt_walk", "ffmt_whitespace"]
+
+[package.ffp]
+source = "https://github.com/jacobwilliams/ffp"
+description = "Fortran Function Parser"
+provides = ["interpreter", "precision"]
+
+[package.FGIF]
+source = "https://github.com/jacobwilliams/FGIF"
+description = "Create Animated GIFs with Fortran"
+license = "BSD-3"
+provides = ["gif_module"]
+
+[package.FiNeR]
+source = "https://github.com/szaghi/FiNeR"
+description = "Fortran INI ParseR and generator"
+license = "Multiple licenses"
+provides = ["finer", "finer_backend", "finer_file_ini_t", "finer_option_t", "finer_section_t"]
+
+[package.finterp]
+source = "https://github.com/jacobwilliams/finterp"
+description = "Modern Fortran Multidimensional Linear Interpolation"
+license = "BSD"
+provides = ["linear_interpolation_module"]
+
+[package.FITTER]
+source = "https://github.com/szaghi/FITTER"
+description = "use fitter"
+provides = ["fitter", "fitter_snippet"]
+
+[package.FLAP]
+source = "https://github.com/szaghi/FLAP"
+description = "Fortran command Line Arguments Parser for poor people"
+license = "Multiple licenses"
+provides = ["flap", "flap_command_line_argument_t", "flap_command_line_arguments_group_t", "flap_command_line_interface_t", "flap_config_m", "flap_menu_t", "flap_object_t", "flap_utils_m"]
+
+[package.flist]
+source = "https://github.com/jacobwilliams/flist"
+description = "Modern Fortran Linked List"
+license = "BSD-3"
+provides = ["key_module", "linked_list_module"]
+
+[package.FLOw]
+source = "https://github.com/szaghi/FLOw"
+description = "A KISS pure Fortran Library providing a *Fluid Object* designed for building CFD codes:"
+provides = ["flow", "flow_compressible_transformations", "flow_conservative_compressible", "flow_conservative_object", "flow_eos_compressible", "flow_eos_object", "flow_field_object", "flow_primitive_compressible", "flow_primitive_compressible_multispecie", "flow_primitive_object"]
+
+[package.fmin]
+source = "https://github.com/jacobwilliams/fmin"
+description = "Derivative free 1D function minimizer in modern Fortran"
+license = "BSD-3"
+provides = ["fmin_module"]
+
+[package.FOODIE]
+source = "https://github.com/Fortran-FOSS-Programmers/FOODIE"
+description = "Fortran Object-Oriented Differential-equations Integration Environment"
+license = "GPL-3.0"
+provides = ["foodie", "foodie_error_codes", "foodie_integrand_euler_1d", "foodie_integrand_object", "foodie_integrator_adams_bashforth", "foodie_integrator_adams_bashforth_moulton", "foodie_integrator_adams_moulton", "foodie_integrator_backward_differentiation_formula", "foodie_integrator_euler_explicit", "foodie_integrator_leapfrog", "foodie_integrator_lmm_ssp", "foodie_integrator_lmm_ssp_vss", "foodie_integrator_ms_runge_kutta_ssp", "foodie_integrator_multistage_multistep_object", "foodie_integrator_multistage_object", "foodie_integrator_multistep_object", "foodie_integrator_object", "foodie_integrator_runge_kutta_emd", "foodie_integrator_runge_kutta_low_storage", "foodie_integrator_runge_kutta_lssp", "foodie_integrator_runge_kutta_ssp", "foodie_utils"]
+
+[package.forbear]
+source = "https://github.com/szaghi/forbear"
+description = "Fortran (progress) B(e)ar environment"
+license = "multi-licensing system: GPLv3, BSD2, BSD3, and MIT"
+provides = ["forbear", "forbear_bar_object", "forbear_element_object", "forbear_field_object", "forbear_kinds"]
+
+[package.FORESEER]
+source = "https://github.com/szaghi/FORESEER"
+description = "A KISS pure Fortran Library providing a large set of Riemann Solvers:"
+provides = ["foreseer", "foreseer_riemann_pattern_compressible_object", "foreseer_riemann_pattern_compressible_pvl", "foreseer_riemann_pattern_compressible_roe", "foreseer_riemann_pattern_object", "foreseer_riemann_solver_compressible_exact", "foreseer_riemann_solver_compressible_hllc", "foreseer_riemann_solver_compressible_llf", "foreseer_riemann_solver_compressible_pvl", "foreseer_riemann_solver_compressible_roe", "foreseer_riemann_solver_object"]
+
+[package.foresight]
+source = "https://github.com/szaghi/foresight"
+description = "FORtran Easy Svg Interactive Gnuplot-like Html Tool"
+provides = ["foresight", "foresight_axes", "foresight_axis", "foresight_backend", "foresight_backend_block", "foresight_backend_dumb", "foresight_backend_html", "foresight_backend_svg", "foresight_datafile", "foresight_expression", "foresight_figure", "foresight_fingerprint", "foresight_format", "foresight_palette", "foresight_png", "foresight_readout", "foresight_script", "foresight_series", "foresight_smooth", "foresight_style", "foresight_sys", "foresight_theme", "foresight_ticks", "foresight_tokens", "foresight_viewer_js"]
+
+[package.forget]
+source = "https://github.com/szaghi/forget"
+description = "A template/skeleton for starting new free Fortran projects handled by git with the exploitation of GitHub, Travis, Codecov & Co."
+provides = ["library"]
+
+[package.Fortran-Astrodynamics-Toolkit]
+source = "https://github.com/jacobwilliams/Fortran-Astrodynamics-Toolkit"
+description = "A Modern Fortran Library for Astrodynamics"
+license = "BSD-3"
+provides = ["analytical_ephemeris_module", "base_class_module", "bplane_module", "brent_module", "c_interface_module", "celestial_body_module", "complex_step_module", "conversion_module", "crtbp_module", "drag_module", "eispack_module", "ephemeris_module", "fortran_astrodynamics_toolkit", "geodesy_module", "geometry_module", "geopotential_module", "gooding_module", "gravity_module", "halo_orbit_module", "iau_orientation_module", "jpl_ephemeris_module", "kepler_module", "kind_module", "lambert_module", "lighting_module", "math_module", "matrix_module", "minpack_module", "modified_equinoctial_module", "newton_module", "numbers_module", "obliquity_module", "orbital_mechanics_module", "random_module", "relative_motion_module", "rk_module", "rk_module_variable_step", "spice_ephemeris_module", "standish_module", "string_module", "time_module", "transformation_module", "vector_module"]
+
+[package.fortran-compiler-tester]
+source = "https://github.com/jacobwilliams/fortran-compiler-tester"
+description = "fortran-compiler-tester"
+license = "MIT"
+provides = ["test_module"]
+
+[package.fortran-mach]
+source = "https://github.com/jacobwilliams/fortran-mach"
+description = "Modern Fortran Machine Constants Module"
+license = "BSD-3"
+provides = ["mach_routines"]
+
+[package.fortran-search-and-sort]
+source = "https://github.com/jacobwilliams/fortran-search-and-sort"
+description = "Searching and sorting with modern Fortran"
+license = "BSD-3"
+provides = ["sorting_module"]
+
+[package.fortran_function_parser]
+source = "https://github.com/jacobwilliams/fortran_function_parser"
+description = "Modern Fortran Function Parser"
+license = "BSD-3-Clause"
+provides = ["error_module", "function_parser"]
+
+[package.fortranpack]
+source = "https://github.com/jacobwilliams/fortranpack"
+description = "**fortranpack**: A Modern Fortran Numerical & Scientific Programming Package"
+license = "license"
+provides = ["fortranpack"]
+
+[package.FOSSIL]
+source = "https://github.com/szaghi/FOSSIL"
+description = "FOrtran Stereo (si) Litography parser"
+license = "GPL-3.0"
+provides = ["fossil", "fossil_aabb_node_object", "fossil_aabb_object", "fossil_aabb_tree_object", "fossil_alpha_wrap", "fossil_arrangement", "fossil_block_aabb_object", "fossil_block_object", "fossil_boolean", "fossil_csr_matrix", "fossil_curvature", "fossil_decimate", "fossil_dt", "fossil_facet_object", "fossil_laplacian", "fossil_list_id_object", "fossil_marching_cubes", "fossil_predicates", "fossil_ray_query", "fossil_remesh", "fossil_sdf", "fossil_self_intersection", "fossil_smoothing", "fossil_surface_stl_object", "fossil_utils", "fossil_vertex_pool_object", "fossil_winding_number"]
+
+[package.FoXy]
+source = "https://github.com/Fortran-FOSS-Programmers/FoXy"
+description = "Fortran XML parser for poor people"
+license = "Multiple licenses"
+provides = ["foxy", "foxy_xml_entities", "foxy_xml_file", "foxy_xml_index", "foxy_xml_tag", "foxy_xml_tokenizer", "foxy_xml_tree", "foxy_xml_values", "foxy_xml_writer"]
+
+[package.fpm-gdb]
+source = "https://github.com/urbanjost/fpm-gdb"
+description = "fpm(1) tool for launching gdb(1)"
+license = "MIT"
+
+[package.fpm-search]
+source = "https://github.com/urbanjost/fpm-search"
+description = "Available Packages"
+license = "ISC"
+
+[package.fregex]
+source = "https://github.com/jacobwilliams/fregex"
+description = "Regular expressions for modern Fortran, with Python re-compatible syntax"
+license = "MIT"
+provides = ["fregex", "fregex_charset", "fregex_compiler", "fregex_match", "fregex_parser", "fregex_program", "fregex_string", "fregex_template", "fregex_vm"]
+
+[package.FriVolous]
+source = "https://github.com/szaghi/FriVolous"
+description = "A KISS pure Fortran OOD class providing an abstract container for Finite Volume block-structured numerical computations"
+provides = ["frivolous", "frivolous_adt_conservative", "frivolous_kinds"]
+
+[package.FUNDAL]
+source = "https://github.com/szaghi/FUNDAL"
+description = "Fortran UNified Device Acceleration Library"
+license = "Multiple licenses"
+provides = ["fundal", "fundal_dev_alloc", "fundal_dev_alloc_replace", "fundal_dev_alloc_unstructured", "fundal_dev_assign", "fundal_dev_free", "fundal_dev_free_unstructured", "fundal_dev_handling", "fundal_dev_memcpy", "fundal_dev_memcpy_unstructured", "fundal_env", "fundal_mpih_object", "fundal_registry", "fundal_transpose_array", "fundal_utilities"]
+
+[package.FURY]
+source = "https://github.com/szaghi/FURY"
+description = "Fortran Units (environment) for Reliable phYsical math"
+license = "GPL-3.0"
+provides = ["acceleration_m", "force_m", "fury", "fury_mixed_kinds", "fury_qreal128", "fury_qreal32", "fury_qreal64", "fury_system_abstract128", "fury_system_abstract32", "fury_system_abstract64", "fury_system_si128", "fury_system_si32", "fury_system_si64", "fury_uom128", "fury_uom32", "fury_uom64", "fury_uom_converter", "fury_uom_reference128", "fury_uom_reference32", "fury_uom_reference64", "fury_uom_symbol128", "fury_uom_symbol32", "fury_uom_symbol64", "length_m", "mass_m", "mykinds_m", "myunits_m", "time_m", "uomtype_m", "velocity_m"]
+
+[package.general-purpose-fortran]
+source = "https://github.com/urbanjost/general-purpose-fortran"
+description = "GPF (General Purpose Fortran)"
+license = "Primarily MIT and PD"
+provides = ["m_anything", "m_args", "m_attr", "m_bessel", "m_big_integer", "m_blas", "m_calcomp", "m_calculator", "m_cli", "m_cli2", "m_color", "m_compare_float_numbers", "m_constants", "m_contourplot", "m_csv", "m_ctrper", "m_curl", "m_datapac", "m_datapac_d", "m_datapac_s", "m_display", "m_display_util", "m_draw", "m_drawplus", "m_escape", "m_expr", "m_factor", "m_fixedform", "m_fndnth", "m_generic_list", "m_geography", "m_getkey", "m_getopt", "m_getopt_long", "m_graph", "m_hashkeys", "m_help", "m_history", "m_html", "m_hybrid", "m_indmed", "m_indnth", "m_inspar", "m_inssor", "m_intrinsics", "m_io", "m_journal", "m_kracken", "m_kracken95", "m_la", "m_list", "m_logic", "m_lua", "m_match", "m_math", "m_matrix", "m_median", "m_messages", "m_mrgref", "m_mrgrnk", "m_msg", "m_mulcnt", "m_ncurses", "m_orderpack", "m_overload", "m_path", "m_pixel", "m_pixel_slices", "m_process", "m_random", "m_rapknr", "m_readgif", "m_readline", "m_refpar", "m_refsor", "m_regex", "m_rinpar", "m_rnkpar", "m_sha3", "m_slices", "m_smooth", "m_sort", "m_sqlite", "m_steam67", "m_stopwatch", "m_strings", "m_strings_oop", "m_stringtonumber", "m_system", "m_time", "m_time_oop", "m_uniinv", "m_unipar", "m_unirnk", "m_unista", "m_units", "m_uuid", "m_valmed", "m_valnth", "m_verify", "m_writegif", "m_writegif_animated", "m_xterm", "m_xyplot", "ncurses_types", "putstrmodule"]
+
+[package.geodesic-fortran]
+source = "https://github.com/jacobwilliams/geodesic-fortran"
+description = "Fortran implementation of geodesic routines"
+license = "BSD-3"
+provides = ["geodesic_module"]
+
+[package.halo]
+source = "https://github.com/jacobwilliams/halo"
+description = "Halo orbit solver"
+license = "BSD-3"
+provides = ["config_file_module", "halo_kinds_module", "halo_module", "halo_utilities_module", "parameters_module", "splined_ephemeris_module"]
+
+[package.HASTY]
+source = "https://github.com/szaghi/HASTY"
+description = "[What is HASTY?](#what-is-hasty) | [Main features](#main-features) | [Copyrights](#copyrights) | [Download](#download) | [Compilation](#compilation) | [Document"
+provides = ["hasty", "hasty_content_adt", "hasty_dictionary", "hasty_dictionary_node", "hasty_hash_table", "hasty_key_base", "hasty_key_morton"]
+
+[package.HWM14]
+source = "https://github.com/jacobwilliams/HWM14"
+description = "﻿Horizontal Wind Model 2014 (HWM14)"
+license = "?"
+provides = ["alf", "dwm", "gd2qdc", "hwm", "hwm14_module", "hwm14_utilities", "qwm"]
+
+[package.IGRF]
+source = "https://github.com/jacobwilliams/IGRF"
+description = "igrf"
+license = "Public Domain"
+
+[package.info2acustic]
+source = "https://github.com/szaghi/info2acustic"
+description = "by Cristiano Andolgi and Stefano Zaghi"
+provides = ["info2acustic_block_object", "info2acustic_file_object"]
+
+[package.jacchia-roberts-fortran]
+source = "https://github.com/jacobwilliams/jacchia-roberts-fortran"
+description = "A modern Fortran implementation of the Jacchia-Roberts atmospheric density model."
+license = "Apache-2.0"
+provides = ["jacchia_roberts_kinds", "jacchia_roberts_module", "jacchia_roberts_utilities", "space_weather_module"]
+
+[package.json-fortran]
+source = "https://github.com/jacobwilliams/json-fortran"
+description = "A Modern Fortran JSON API"
+license = "BSD"
+provides = ["json_file_module", "json_kinds", "json_module", "json_parameters", "json_string_utilities", "json_value_module"]
+
+[package.json-fortran-benchmarks]
+source = "https://github.com/jacobwilliams/json-fortran-benchmarks"
+description = "Benchmarks for JSON Fortran parsers. Also comparison to Python."
+license = "BSD-3"
+
+[package.kronrod]
+source = "https://github.com/jacobwilliams/kronrod"
+description = "Program for genering Gauss-Kronrod Coefficients"
+license = "LGPL"
+
+[package.lbfgsb]
+source = "https://github.com/jacobwilliams/lbfgsb"
+description = "lbfgsb optimization library"
+license = "BSD-3"
+provides = ["lbfgsb_blas_module", "lbfgsb_kinds_module", "lbfgsb_linpack_module", "lbfgsb_module"]
+
+[package.LoadBalance]
+source = "https://github.com/szaghi/LoadBalance"
+description = "Load Balance is program for performing load balancing of Xnavis code. It analyzes the input mesh and produces bsplit and cutter inputs for a well-balanced paral"
+provides = ["data_type_block", "data_type_command_line_interface", "data_type_os", "data_type_proc", "data_type_sl_list", "data_type_time", "ir_precision", "lib_balance", "lib_ini_io", "lib_io_misc", "lib_strings"]
+
+[package.LOM]
+source = "https://github.com/jacobwilliams/LOM"
+description = "Lunar Orbit Maintenance"
+license = "BSD-3"
+
+[package.LSMR]
+source = "https://github.com/jacobwilliams/LSMR"
+description = "LSMR: Sparse Equations and Least Squares."
+license = "BSD"
+provides = ["lsmrblas", "lsmrdatamodule", "lsmrmodule"]
+
+[package.LSQR]
+source = "https://github.com/jacobwilliams/LSQR"
+description = "Modern Fortran sparse linear systems solver"
+license = "BSD-3"
+provides = ["lsqpblas_module", "lsqr_kinds", "lsqr_module"]
+
+[package.lusol]
+source = "https://github.com/jacobwilliams/lusol"
+description = "LUSOL"
+license = "MIT & BSD"
+provides = ["lusol", "lusol_ez_module", "lusol_precision"]
+
+[package.M_anything]
+source = "https://github.com/urbanjost/M_anything"
+description = "module to cast or promote intrinsic types"
+license = "MIT"
+provides = ["m_anything"]
+
+[package.M_args]
+source = "https://github.com/urbanjost/M_args"
+description = "command line parsing using Fortran 95 (LICENSE:PD)"
+license = "Public Domain"
+provides = ["m_args"]
+
+[package.M_attr]
+source = "https://github.com/urbanjost/M_attr"
+description = "ANSI control escape sequences using an XML-like syntax for attributes like color on video displays and emulators"
+license = "MIT"
+provides = ["m_attr"]
+
+[package.M_blas]
+source = "https://github.com/urbanjost/M_blas"
+description = "BLAS"
+license = "MIT"
+provides = ["m_blas"]
+
+[package.M_calcomp]
+source = "https://github.com/urbanjost/M_calcomp"
+description = "an old Calcomp look-alike graphics library. Not for new large code development"
+license = "Public Domain"
+provides = ["m_calcomp"]
+
+[package.M_calculator]
+source = "https://github.com/urbanjost/M_calculator"
+description = "The M_calculator(3f) module contains A basic expression parser and"
+license = "Public Domain"
+provides = ["m_calculator"]
+
+[package.M_CLI]
+source = "https://github.com/urbanjost/M_CLI"
+description = "This package is a self-contained version of one mode of the M_args(3f)"
+license = "Public Domain"
+provides = ["m_cli"]
+
+[package.M_CLI2]
+source = "https://github.com/urbanjost/M_CLI2"
+description = "Unix-style commandline parsing using a prototype command"
+license = "Public Domain"
+provides = ["m_cli2"]
+
+[package.M_color]
+source = "https://github.com/urbanjost/M_color"
+description = "M_color - Fortran module for converting between color models"
+license = "Public Domain"
+provides = ["m_color"]
+
+[package.M_datapac]
+source = "https://github.com/urbanjost/M_datapac"
+description = "DATAPAC statistics from NIST"
+license = "MIT"
+provides = ["m_datapac", "m_datapac__d", "m_datapac__s"]
+
+[package.M_display]
+source = "https://github.com/urbanjost/M_display"
+description = "module to display small matrices"
+license = "This software is free. For details see the file README"
+provides = ["m_display", "m_display__putstrmodule", "m_display__util"]
+
+[package.M_draw]
+source = "https://github.com/urbanjost/M_draw"
+description = "basic vector graphics package"
+license = "Public Domain"
+provides = ["m_draw"]
+
+[package.M_factor]
+source = "https://github.com/urbanjost/M_factor"
+description = "string manipulation"
+license = "MIT"
+provides = ["m_factor"]
+
+[package.M_fixedform]
+source = "https://github.com/urbanjost/M_fixedform"
+description = "generate fixed forms using ncurses(3c)"
+license = "MIT"
+provides = ["m_fixedform"]
+
+[package.M_flatten]
+source = "https://github.com/urbanjost/M_flatten"
+description = "create a rank one array pointer to a scalar or multi-dimensional array"
+license = "MIT"
+provides = ["m_flatten"]
+
+[package.M_framework]
+source = "https://github.com/urbanjost/M_framework"
+description = "support unit testing and related logging and messaging"
+license = "Public Domain"
+provides = ["m_framework", "m_framework__approx", "m_framework__help", "m_framework__journal", "m_framework__msg", "m_framework__utility", "m_framework__verify"]
+
+[package.M_graph]
+source = "https://github.com/urbanjost/M_graph"
+description = "module to produce a basic XY plot"
+license = "Public Domain"
+provides = ["m_graph"]
+
+[package.M_hashkeys]
+source = "https://github.com/urbanjost/M_hashkeys"
+description = "a collection of hash algorithms"
+license = "CC0-1.0"
+provides = ["m_hashkeys", "m_hashkeys__sha3"]
+
+[package.M_history]
+source = "https://github.com/urbanjost/M_history"
+description = "A Fortran subroutine called redo(3f) may be used to give a line-mode"
+license = "license"
+provides = ["m_history"]
+
+[package.M_intrinsics]
+source = "https://github.com/urbanjost/M_intrinsics"
+description = "module of text descriptions of Fortran intrinsics and features"
+license = "Public Domain"
+provides = ["m_intrinsics"]
+
+[package.M_io]
+source = "https://github.com/urbanjost/M_io"
+description = "I/O-related tools"
+license = "CC0-1.0"
+provides = ["m_io"]
+
+[package.M_isolatin]
+source = "https://github.com/urbanjost/M_isolatin"
+description = "converting ISOLATIN to Unicode codebytes"
+license = "MIT"
+provides = ["m_isolatin"]
+
+[package.M_kracken]
+source = "https://github.com/urbanjost/M_kracken"
+description = "command line parsing"
+license = "Public Domain"
+provides = ["m_journal", "m_kracken", "m_list", "m_msg", "m_strings", "m_time", "m_verify"]
+
+[package.M_kracken95]
+source = "https://github.com/urbanjost/M_kracken95"
+description = "A module that provides the Fortran 95 version of the kracken(3f)"
+license = "Public Domain"
+provides = ["m_kracken95"]
+
+[package.M_LA]
+source = "https://github.com/urbanjost/M_LA"
+description = "Linear Algebra and Array-oriented procedures (LICENSE:MIT)"
+license = "CC0-1.0"
+provides = ["m_la"]
+
+[package.M_list]
+source = "https://github.com/urbanjost/M_list"
+description = "maintain sorted lists of INTRINSIC type"
+license = "Public Domain"
+provides = ["m_list"]
+
+[package.M_manifest]
+source = "https://github.com/urbanjost/M_manifest"
+description = "experiments with pre-processing and toml-f"
+license = "MIT"
+provides = ["m_manifest"]
+
+[package.M_match]
+source = "https://github.com/urbanjost/M_match"
+description = "Basic Regular Expressions"
+license = "MIT"
+provides = ["m_match"]
+
+[package.M_matrix]
+source = "https://github.com/urbanjost/M_matrix"
+description = "matlab-like interface via procedure calls(LICENSE:PD)"
+license = "CC0-1.0"
+provides = ["m_matrix"]
+
+[package.M_msg]
+source = "https://github.com/urbanjost/M_msg"
+description = "This is a small module that can convert a list of variables of any of"
+license = "Public Domain"
+provides = ["m_msg"]
+
+[package.M_ncurses]
+source = "https://github.com/urbanjost/M_ncurses"
+description = "Fortran interface to ncurses(3c)"
+license = "MIT"
+provides = ["m_ncurses", "ncurses_types"]
+
+[package.M_orderpack]
+source = "https://github.com/urbanjost/M_orderpack"
+description = "**orderpack**(3f) - general and specialized ranking and sorting routines"
+license = "license"
+provides = ["m_ctrper", "m_fndnth", "m_indmed", "m_indnth", "m_inspar", "m_inssor", "m_median", "m_mrgref", "m_mrgrnk", "m_mulcnt", "m_orderpack", "m_rapknr", "m_refpar", "m_refsor", "m_rinpar", "m_rnkpar", "m_uniinv", "m_unipar", "m_unirnk", "m_unista", "m_valmed", "m_valnth"]
+
+[package.M_overload]
+source = "https://github.com/urbanjost/M_overload"
+description = "Common Fortran overloads of operators and intrinsics"
+license = "MIT, custom OpenSource license"
+provides = ["m_overload"]
+
+[package.M_path]
+source = "https://github.com/urbanjost/M_path"
+description = "OOP interface for operations on a POSIX pathname"
+license = "CC0-1.0"
+provides = ["m_path"]
+
+[package.M_pixel]
+source = "https://github.com/urbanjost/M_pixel"
+description = "basic vector drawing into a pixel graphics format"
+license = "Public Domain"
+provides = ["m_pixel", "m_pixel_slices", "m_readgif", "m_writegif", "m_writegif_animated"]
+
+[package.M_process]
+source = "https://github.com/urbanjost/M_process"
+description = "*M_process* - read and write lines to or from a process from Fortran via a C wrapper"
+license = "Public Domain"
+provides = ["m_process"]
+
+[package.M_random]
+source = "https://github.com/urbanjost/M_random"
+description = "pseudorandom generators"
+license = "MIT"
+provides = ["m_random"]
+
+[package.M_readline]
+source = "https://github.com/urbanjost/M_readline"
+description = "Fortran-callable interface to the C input history editor readline(3c)"
+license = "MIT"
+provides = ["m_readline"]
+
+[package.M_regex]
+source = "https://github.com/urbanjost/M_regex"
+description = "Fortran interface to the POSIX 1003.2 regular expression library"
+license = "MIT"
+provides = ["m_regex"]
+
+[package.M_sets]
+source = "https://github.com/urbanjost/M_sets"
+description = "set-theory functions including Union, intersection, and set membership"
+license = "CC0-1.0"
+provides = ["m_sets"]
+
+[package.M_slices]
+source = "https://github.com/urbanjost/M_slices"
+description = "produce basic slice plot on POSIX systems with X11 Windows"
+license = "MIT"
+provides = ["m_slices"]
+
+[package.M_sort]
+source = "https://github.com/urbanjost/M_sort"
+description = "sorting procedures"
+license = "Public Domain"
+provides = ["m_sort"]
+
+[package.M_starpac]
+source = "https://github.com/urbanjost/M_starpac"
+description = "* This is just a collection of files to use as seeds for a starpac"
+license = "license"
+provides = ["m_starpac", "m_starpac_d", "m_starpac_g", "m_starpac_s"]
+
+[package.M_stopwatch]
+source = "https://github.com/urbanjost/M_stopwatch"
+description = "timing routines using stopwatches"
+license = "license"
+provides = ["m_stopwatch"]
+
+[package.M_strings]
+source = "https://github.com/urbanjost/M_strings"
+description = "string manipulation"
+license = "CC0-1.0"
+provides = ["m_strings", "m_strings__chars", "m_strings__oop"]
+
+[package.M_system]
+source = "https://github.com/urbanjost/M_system"
+description = "M_system - Fortran module for calling basic (mostly POSIX) C system routines"
+provides = ["m_system"]
+
+[package.M_time]
+source = "https://github.com/urbanjost/M_time"
+description = "date and time conversion, formatting and computation"
+license = "Public Domain"
+provides = ["m_time", "m_time_duplicate", "m_time_oop"]
+
+[package.M_ucs4]
+source = "https://github.com/urbanjost/M_ucs4"
+description = "Fortran 2003 (optionally) supports internal representation of Unicode"
+license = "MIT"
+provides = ["m_ucs4"]
+
+[package.M_unicode]
+source = "https://github.com/urbanjost/M_unicode"
+description = "UTF-8 encoded string processing"
+license = "MIT"
+provides = ["m_unicode"]
+
+[package.M_uuid]
+source = "https://github.com/urbanjost/M_uuid"
+description = "module to produce a UUID string"
+license = "MIT, custom OpenSource license"
+provides = ["m_uuid"]
+
+[package.mersenne-twister-fortran]
+source = "https://github.com/jacobwilliams/mersenne-twister-fortran"
+description = "Mersenne Twister pseudorandom number generator"
+license = "BSD-3-Clause"
+provides = ["mt19937_64"]
+
+[package.minnorm_test]
+source = "https://github.com/jacobwilliams/minnorm_test"
+description = "minnorm_test"
+license = "BSD-3"
+provides = ["minnorm_module"]
+
+[package.moonframe]
+source = "https://github.com/jacobwilliams/moonframe"
+description = "Moon frame test"
+license = "BSD-3"
+provides = ["moon_frame_module", "moon_frame_spice_interface"]
+
+[package.MORTIF]
+source = "https://github.com/szaghi/MORTIF"
+description = "MORTon Indexer (Z-order) Fortran environment"
+provides = ["mortif"]
+
+[package.MOTIOn]
+source = "https://github.com/szaghi/MOTIOn"
+description = "Modular (HPC) Optimized Toolkit (for) IO (in fortra)n"
+provides = ["h5fortran_types", "motion", "motion_file_abst_object", "motion_hdf5_file_object", "motion_xdmf_file_object", "motion_xh5f_file_object"]
+
+[package.mpfun2020-var1]
+source = "https://github.com/jacobwilliams/mpfun2020-var1"
+description = "FPM Package for MPFUN2020 (var1)"
+license = "BSD-3"
+provides = ["mpfuna", "mpfunb", "mpfunc", "mpfund", "mpfune", "mpfunf", "mpfung", "mpfunh", "mpmask", "mpmodule"]
+
+[package.namelist2json]
+source = "https://github.com/jacobwilliams/namelist2json"
+description = "Converting a Fortran namelist to JSON"
+license = "BSD-3-Clause"
+provides = ["namelist_parser_module"]
+
+[package.nlesolver-fortran]
+source = "https://github.com/jacobwilliams/nlesolver-fortran"
+description = "Nonlinear Equation Solver with Modern Fortran"
+license = "BSD-3"
+provides = ["nlesolver_module"]
+
+[package.NOVAS]
+source = "https://github.com/jacobwilliams/NOVAS"
+description = "Naval observatory vector astrometry software"
+license = "Public domain"
+provides = ["novas_module"]
+
+[package.NumDiff]
+source = "https://github.com/jacobwilliams/NumDiff"
+description = "Modern Fortran Numerical Differentiation Library"
+license = "BSD-3"
+provides = ["diff_module", "dsm_module", "numdiff_cache_module", "numdiff_kinds_module", "numdiff_utilities_module", "numerical_differentiation_module"]
+
+[package.odepack]
+source = "https://github.com/jacobwilliams/odepack"
+description = "differential equation solver"
+license = "Public Domain"
+provides = ["m_odepack"]
+
+[package.openframes-fortran]
+source = "https://github.com/jacobwilliams/openframes-fortran"
+description = "Modern Fortran interface to OpenFrames realtime interactive scientific visualization API"
+license = "Apache"
+provides = ["openframes_c_interface", "openframes_fortran_helpers", "openframes_module"]
+
+[package.optgra]
+source = "https://github.com/jacobwilliams/optgra"
+description = "optgra"
+license = "GPL-3.0"
+provides = ["optgra_module"]
+
+[package.overset-exploded]
+source = "https://github.com/szaghi/overset-exploded"
+description = "Overset-Exploded is an overset post-processor: it takes in input overset outputs and generate a new format"
+provides = ["overset_exploded_block_object", "overset_exploded_box_object", "overset_exploded_cc_par_object", "overset_exploded_library", "overset_exploded_patch_object", "overset_exploded_process_object"]
+
+[package.PCHIP]
+source = "https://github.com/jacobwilliams/PCHIP"
+description = "Piecewise Cubic Hermite Interpolation Package"
+license = "BSD-3"
+provides = ["pchip_module"]
+
+[package.PENF]
+source = "https://github.com/szaghi/PENF"
+description = "Portability Environment for Fortran poor people"
+license = "Multiple licenses"
+provides = ["penf", "penf_allocatable_memory", "penf_b_size", "penf_global_parameters_variables", "penf_stringify"]
+
+[package.pikaia]
+source = "https://github.com/jacobwilliams/pikaia"
+description = "Modern Fortran Edition of the Pikaia Genetic Algorithm"
+license = "BSD-3"
+provides = ["pikaia_module"]
+
+[package.polyroots-fortran]
+source = "https://github.com/jacobwilliams/polyroots-fortran"
+description = "Polynomial Roots with Modern Fortran"
+license = "BSD-3"
+provides = ["polyroots_module"]
+
+[package.popen-fortran]
+source = "https://github.com/jacobwilliams/popen-fortran"
+description = "Simple Fortran module for popen"
+license = "BSD-3"
+provides = ["popen_module"]
+
+[package.PowellOpt]
+source = "https://github.com/jacobwilliams/PowellOpt"
+description = "Optimization algorithms by M.J.D. Powell"
+license = "BSD"
+provides = ["bobyqa_module", "cobyla_module", "kind_module", "lincoa_module", "newuoa_module", "powellopt", "uobyqa_module"]
+
+[package.prep]
+source = "https://github.com/urbanjost/prep"
+description = "Fortran pre-processor"
+license = "MIT"
+provides = ["m_expr"]
+
+[package.psqp]
+source = "https://github.com/jacobwilliams/psqp"
+description = "Modern Fortran edition of PSQP"
+license = "LGPL"
+provides = ["psqp_kind_module", "psqp_matrix_module", "psqp_module"]
+
+[package.pyplot-fortran]
+source = "https://github.com/jacobwilliams/pyplot-fortran"
+description = "A simple module for generating plots from Fortran using Python's matplotlib.pyplot."
+license = "BSD-3"
+provides = ["pyplot_module"]
+
+[package.qdldl-fortran]
+source = "https://github.com/jacobwilliams/qdldl-fortran"
+description = "QDLDL (a sparse LDL^T solver for quasi-definite matrices) in modern Fortran, with AMD and RCM orderings"
+license = "Apache-2.0"
+provides = ["qdldl_amd", "qdldl_core", "qdldl_kinds", "qdldl_module", "qdldl_ordering"]
+
+[package.qt-fortran]
+source = "https://github.com/jacobwilliams/qt-fortran"
+description = "Modern Fortran interface to Qt"
+license = "MIT"
+provides = ["qt", "qt_c_core", "qt_c_core_classes", "qt_c_gui", "qt_c_opengl", "qt_c_util", "qt_c_widgets", "qt_core", "qt_core_classes", "qt_gui", "qt_gui_types", "qt_matrix", "qt_opengl", "qt_widgets"]
+
+[package.quadpack]
+source = "https://github.com/jacobwilliams/quadpack"
+description = "Modern Fortran QUADPACK"
+license = "BSD-3"
+provides = ["quadpack", "quadpack_double", "quadpack_generic", "quadpack_quad", "quadpack_single"]
+
+[package.quadrature-fortran]
+source = "https://github.com/jacobwilliams/quadrature-fortran"
+description = "Adaptive Gaussian Quadrature with Modern Fortran"
+license = "BSD-3"
+provides = ["quadrature_module"]
+
+[package.radbelt]
+source = "https://github.com/jacobwilliams/radbelt"
+description = "radbelt"
+license = "BSD-3"
+provides = ["radbelt_c_module", "radbelt_kinds_module", "radbelt_module", "shellig_module", "trmfun_module"]
+
+[package.regridpack]
+source = "https://github.com/jacobwilliams/regridpack"
+description = "Modern Fortran Edition of REGRIDPACK"
+license = "BSD-3"
+provides = ["regridpack_module"]
+
+[package.rklib]
+source = "https://github.com/jacobwilliams/rklib"
+description = "Fixed and variable-step Runge-Kutta solvers in Modern Fortran"
+license = "BSD-3"
+provides = ["rklib_module"]
+
+[package.roots-fortran]
+source = "https://github.com/jacobwilliams/roots-fortran"
+description = "A library for finding the roots of continuous scalar functions of a single real variable"
+license = "BSD-3"
+provides = ["root_module"]
+
+[package.Shu-Osher-shock-tube-problem]
+source = "https://github.com/szaghi/Shu-Osher-shock-tube-problem"
+description = "Regression results on Shu-Osher shock tube problem."
+provides = ["data_type_command_line_interface", "foodie", "foodie_adt_integrand", "foodie_integrator_adams_bashforth", "foodie_integrator_adams_bashforth_moulton", "foodie_integrator_adams_moulton", "foodie_integrator_emd_runge_kutta", "foodie_integrator_euler_explicit", "foodie_integrator_leapfrog", "foodie_integrator_low_storage_runge_kutta", "foodie_integrator_tvd_runge_kutta", "foodie_kinds", "ir_precision", "pyplot_module", "type_euler_1d", "type_weno_interpolator", "type_weno_interpolator_upwind", "wenoof", "wenoof_kinds"]
+
+[package.simulated-annealing]
+source = "https://github.com/jacobwilliams/simulated-annealing"
+description = "Simulated Annealing with Modern Fortran"
+license = "BSD-3"
+provides = ["simulated_annealing_module", "simulated_annealing_module_c"]
+
+[package.slsqp]
+source = "https://github.com/jacobwilliams/slsqp"
+description = "Modern Fortran Edition of the SLSQP Optimizer"
+license = "BSD-3-Clause"
+provides = ["bvls_module", "slsqp_core", "slsqp_kinds", "slsqp_module", "slsqp_support"]
+
+[package.spag_lapack]
+source = "https://github.com/urbanjost/spag_lapack"
+description = "Experimental LAPACK version"
+license = "license"
+
+[package.specfun]
+source = "https://github.com/jacobwilliams/specfun"
+description = "Special functions"
+license = "BSD-3"
+provides = ["specfun_module"]
+
+[package.spicelib-modifications]
+source = "https://github.com/jacobwilliams/spicelib-modifications"
+description = "Building this example requires FPM (the Fortran Package Manager) v0.13.0 or later. It has only been tested with `gfortran` on a Mac."
+license = "license"
+provides = ["spice_programmatic_interface", "spicelib_module"]
+
+[package.splpak]
+source = "https://github.com/jacobwilliams/splpak"
+description = "Modernized SPLPAK library for multidimensional least-squares cubic spline fitting"
+license = "Apache"
+provides = ["splpak_module"]
+
+[package.sqpopt]
+source = "https://github.com/jacobwilliams/sqpopt"
+description = "Modern Fortran SQP OPTimizer"
+license = "MIT"
+provides = ["sqpopt_convergence_module", "sqpopt_dense_ldl_module", "sqpopt_dense_linalg_module", "sqpopt_diagnostics_module", "sqpopt_filter_module", "sqpopt_funnel_module", "sqpopt_hessian_module", "sqpopt_inertia_module", "sqpopt_iterate_module", "sqpopt_kinds", "sqpopt_kkt_module", "sqpopt_least_squares_module", "sqpopt_linalg_module", "sqpopt_linesearch_module", "sqpopt_log_module", "sqpopt_merit_module", "sqpopt_module", "sqpopt_mumps_ldl_module", "sqpopt_nlls_module", "sqpopt_options_module", "sqpopt_problem_module", "sqpopt_qdldl_ldl_module", "sqpopt_qp_dense_module", "sqpopt_qp_direct_module", "sqpopt_qp_reduced_hessian_module", "sqpopt_qp_solver_module", "sqpopt_restoration_module", "sqpopt_soc_module", "sqpopt_sparse_ldl_module", "sqpopt_symmetric_solver_module", "sqpopt_trust_region_module", "sqpopt_types_module"]
+
+[package.stl-fortran]
+source = "https://github.com/jacobwilliams/stl-fortran"
+description = "Fortran STL File I/O"
+license = "BSD-3"
+provides = ["stl_module"]
+
+[package.StringiFor]
+source = "https://github.com/szaghi/StringiFor"
+description = "Strings Fortran Manipulator with steroids"
+license = "Multiple licenses"
+provides = ["stringifor", "stringifor_string_t"]
+
+[package.stringsort]
+source = "https://github.com/jacobwilliams/stringsort"
+description = "Just some sorting routines for strings"
+license = "BSD-3"
+provides = ["string_sort_module"]
+
+[package.uuid-fortran]
+source = "https://github.com/jacobwilliams/uuid-fortran"
+description = "Fortran module for generating UUIDs"
+license = "BSD-3"
+provides = ["uuid_module"]
+
+[package.VecFor]
+source = "https://github.com/szaghi/VecFor"
+description = "Vector algebra class for Fortran poor people"
+provides = ["vecfor", "vecfor_r16p", "vecfor_r4p", "vecfor_r8p", "vecfor_rpp"]
+
+[package.vkframes]
+source = "https://github.com/jacobwilliams/vkframes"
+description = "Modern Fortran spacecraft trajectory visualization on VulkanSceneGraph"
+license = "Apache"
+provides = ["vkf_artists", "vkf_clock", "vkf_files", "vkf_follower", "vkf_frames", "vkf_geometry", "vkf_gui", "vkf_hud", "vkf_layer", "vkf_line_chain", "vkf_line_segments", "vkf_math", "vkf_model", "vkf_pick", "vkf_shadow", "vkf_shapes", "vkf_sky", "vkf_sphere", "vkf_terrain", "vkf_text", "vkf_trajectory", "vkf_view", "vkf_window", "vkframes"]
+
+[package.VTKFortran]
+source = "https://github.com/szaghi/VTKFortran"
+description = "Pure Fortran VTK (XML) API"
+license = "Multiple licenses"
+provides = ["lib_testers", "lib_vtk_io", "lib_vtk_io_back_end", "lib_vtk_io_con", "lib_vtk_io_con_xml", "lib_vtk_io_dat_var", "lib_vtk_io_dat_var_xml", "lib_vtk_io_end", "lib_vtk_io_end_xml", "lib_vtk_io_fld_xml", "lib_vtk_io_geo", "lib_vtk_io_geo_xml", "lib_vtk_io_ini", "lib_vtk_io_ini_xml", "lib_vtk_io_pvd_xml", "lib_vtk_io_pvtk_xml", "lib_vtk_io_vtm_xml", "vtk_fortran", "vtk_fortran_dataarray_decoder", "vtk_fortran_dataarray_encoder", "vtk_fortran_parameters", "vtk_fortran_pvd_file", "vtk_fortran_pvtk_file", "vtk_fortran_vtk_file", "vtk_fortran_vtk_file_xml_reader", "vtk_fortran_vtk_file_xml_writer_abstract", "vtk_fortran_vtk_file_xml_writer_appended", "vtk_fortran_vtk_file_xml_writer_ascii_local", "vtk_fortran_vtk_file_xml_writer_binary_local", "vtk_fortran_vtm_file", "vtk_fortran_xml_scanner", "vtk_fortran_zlib"]
+
+[package.xview]
+source = "https://github.com/szaghi/xview"
+description = "post-processing and analysis tool for Xall/Xnavis CFD solver"
+provides = ["xview_block_esz_object", "xview_block_grd_object", "xview_block_icc_object", "xview_block_rst_object", "xview_file_blksmap_object", "xview_file_esz_object", "xview_file_grd_object", "xview_file_icc_object", "xview_file_mbpar_object", "xview_file_object", "xview_file_procinput_object", "xview_file_ptc_object", "xview_file_rst_object", "xview_file_tec_object", "xview_file_vtk_object", "xview_ui_object"]
+
+[package.ZOO]
+source = "https://github.com/szaghi/ZOO"
+description = "This is my *ZOO* where you can see (and take) my *wild Fortran pets*, namely this is a centralized place where you can get some of my (poor) Fortran libraries t"
+provides = ["befor64", "befor64_pack_data_m", "face", "finer", "finer_backend", "finer_file_ini_t", "finer_option_t", "finer_section_t", "fitter", "fitter_snippet", "flap", "flap_command_line_argument_t", "flap_command_line_arguments_group_t", "flap_command_line_interface_t", "flap_object_t", "flap_utils_m", "flow", "flow_compressible_transformations", "flow_conservative_compressible", "flow_conservative_object", "flow_eos_compressible", "flow_eos_object", "flow_field_object", "flow_primitive_compressible", "flow_primitive_compressible_multispecie", "flow_primitive_object", "foodie", "foodie_error_codes", "foodie_integrand_object", "foodie_integrator_adams_bashforth", "foodie_integrator_adams_bashforth_moulton", "foodie_integrator_adams_moulton", "foodie_integrator_backward_differentiation_formula", "foodie_integrator_euler_explicit", "foodie_integrator_leapfrog", "foodie_integrator_lmm_ssp", "foodie_integrator_lmm_ssp_vss", "foodie_integrator_ms_runge_kutta_ssp", "foodie_integrator_multistage_multistep_object", "foodie_integrator_multistage_object", "foodie_integrator_multistep_object", "foodie_integrator_object", "foodie_integrator_runge_kutta_emd", "foodie_integrator_runge_kutta_low_storage", "foodie_integrator_runge_kutta_lssp", "foodie_integrator_runge_kutta_ssp", "foodie_utils", "forbear", "forbear_bar_object", "forbear_element_object", "forbear_kinds", "foreseer", "foreseer_riemann_pattern_compressible_object", "foreseer_riemann_pattern_compressible_pvl", "foreseer_riemann_pattern_compressible_roe", "foreseer_riemann_pattern_object", "foreseer_riemann_solver_compressible_exact", "foreseer_riemann_solver_compressible_hllc", "foreseer_riemann_solver_compressible_llf", "foreseer_riemann_solver_compressible_pvl", "foreseer_riemann_solver_compressible_roe", "foreseer_riemann_solver_object", "foxy", "foxy_xml_file", "foxy_xml_tag", "fury", "fury_mixed_kinds", "fury_qreal128", "fury_qreal32", "fury_qreal64", "fury_system_abstract128", "fury_system_abstract32", "fury_system_abstract64", "fury_system_si128", "fury_system_si32", "fury_system_si64", "fury_uom128", "fury_uom32", "fury_uom64", "fury_uom_converter", "fury_uom_reference128", "fury_uom_reference32", "fury_uom_reference64", "fury_uom_symbol128", "fury_uom_symbol32", "fury_uom_symbol64", "mortif", "penf", "penf_b_size", "penf_global_parameters_variables", "penf_stringify", "stringifor", "stringifor_string_t", "vecfor", "vtk_fortran", "vtk_fortran_dataarray_encoder", "vtk_fortran_parameters", "vtk_fortran_pvtk_file", "vtk_fortran_vtk_file", "vtk_fortran_vtk_file_xml_writer_abstract", "vtk_fortran_vtk_file_xml_writer_appended", "vtk_fortran_vtk_file_xml_writer_ascii_local", "vtk_fortran_vtk_file_xml_writer_binary_local", "vtk_fortran_vtm_file", "wenoof", "wenoof_alpha_factory", "wenoof_alpha_int_js", "wenoof_alpha_int_m", "wenoof_alpha_int_z", "wenoof_alpha_object", "wenoof_alpha_rec_js", "wenoof_alpha_rec_m", "wenoof_alpha_rec_z", "wenoof_base_object", "wenoof_beta_factory", "wenoof_beta_int_js", "wenoof_beta_object", "wenoof_beta_rec_js", "wenoof_interpolations_factory", "wenoof_interpolations_int_js", "wenoof_interpolations_object", "wenoof_interpolations_rec_js", "wenoof_interpolator_factory", "wenoof_interpolator_js", "wenoof_interpolator_object", "wenoof_kappa_factory", "wenoof_kappa_int_js", "wenoof_kappa_object", "wenoof_kappa_rec_js", "wenoof_objects_factory", "wenoof_reconstructor_js", "wenoof_weights_factory", "wenoof_weights_int_js", "wenoof_weights_object", "wenoof_weights_rec_js", "zoo"]

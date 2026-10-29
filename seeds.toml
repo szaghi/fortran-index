@@ -1,0 +1,507 @@
+schema = 1
+name = "szaghi"
+description = "Fortran packages built with FoBiS or fpm (szaghi, urbanjost, jacobwilliams and the projects they collaborate on)"
+
+[package.1976-standard-atmosphere]
+source = "https://github.com/jacobwilliams/1976-standard-atmosphere"
+
+[package.AoC-2021]
+source = "https://github.com/jacobwilliams/AoC-2021"
+
+[package.AoC-2022]
+source = "https://github.com/jacobwilliams/AoC-2022"
+
+[package.AoC-2023]
+source = "https://github.com/jacobwilliams/AoC-2023"
+
+[package.AoC-2024]
+source = "https://github.com/jacobwilliams/AoC-2024"
+
+[package.AoC-2025]
+source = "https://github.com/jacobwilliams/AoC-2025"
+
+[package.arclength]
+source = "https://github.com/jacobwilliams/arclength"
+
+[package.argv-fortran]
+source = "https://github.com/jacobwilliams/argv-fortran"
+
+[package.astro-fortran]
+source = "https://github.com/jacobwilliams/astro-fortran"
+
+[package.brouwer-elements]
+source = "https://github.com/jacobwilliams/brouwer-elements"
+
+[package.bspline-fortran]
+source = "https://github.com/jacobwilliams/bspline-fortran"
+
+[package.carlson-elliptic-integrals]
+source = "https://github.com/jacobwilliams/carlson-elliptic-integrals"
+
+[package.ci-tester]
+source = "https://github.com/jacobwilliams/ci-tester"
+
+[package.conmax]
+source = "https://github.com/jacobwilliams/conmax"
+
+[package.conmin]
+source = "https://github.com/jacobwilliams/conmin"
+
+[package.csv-fortran]
+source = "https://github.com/jacobwilliams/csv-fortran"
+
+[package.daglib]
+source = "https://github.com/jacobwilliams/daglib"
+
+[package.daqp-fortran]
+source = "https://github.com/jacobwilliams/daqp-fortran"
+
+[package.ddeabm]
+source = "https://github.com/jacobwilliams/ddeabm"
+
+[package.diff]
+source = "https://github.com/jacobwilliams/diff"
+
+[package.dop853]
+source = "https://github.com/jacobwilliams/dop853"
+
+[package.dvode]
+source = "https://github.com/jacobwilliams/dvode"
+
+[package.fformat]
+source = "https://github.com/jacobwilliams/fformat"
+
+[package.ffp]
+source = "https://github.com/jacobwilliams/ffp"
+
+[package.FGIF]
+source = "https://github.com/jacobwilliams/FGIF"
+
+[package.finterp]
+source = "https://github.com/jacobwilliams/finterp"
+
+[package.flist]
+source = "https://github.com/jacobwilliams/flist"
+
+[package.fmin]
+source = "https://github.com/jacobwilliams/fmin"
+
+[package.Fortran-Astrodynamics-Toolkit]
+source = "https://github.com/jacobwilliams/Fortran-Astrodynamics-Toolkit"
+
+[package.fortran-compiler-tester]
+source = "https://github.com/jacobwilliams/fortran-compiler-tester"
+
+[package.fortran-mach]
+source = "https://github.com/jacobwilliams/fortran-mach"
+
+[package.fortran-search-and-sort]
+source = "https://github.com/jacobwilliams/fortran-search-and-sort"
+
+[package.fortranpack]
+source = "https://github.com/jacobwilliams/fortranpack"
+
+[package.fortran_function_parser]
+source = "https://github.com/jacobwilliams/fortran_function_parser"
+
+[package.fregex]
+source = "https://github.com/jacobwilliams/fregex"
+
+[package.geodesic-fortran]
+source = "https://github.com/jacobwilliams/geodesic-fortran"
+
+[package.halo]
+source = "https://github.com/jacobwilliams/halo"
+
+[package.HWM14]
+source = "https://github.com/jacobwilliams/HWM14"
+
+[package.IGRF]
+source = "https://github.com/jacobwilliams/IGRF"
+
+[package.jacchia-roberts-fortran]
+source = "https://github.com/jacobwilliams/jacchia-roberts-fortran"
+
+[package.json-fortran]
+source = "https://github.com/jacobwilliams/json-fortran"
+
+[package.json-fortran-benchmarks]
+source = "https://github.com/jacobwilliams/json-fortran-benchmarks"
+
+[package.kronrod]
+source = "https://github.com/jacobwilliams/kronrod"
+
+[package.lbfgsb]
+source = "https://github.com/jacobwilliams/lbfgsb"
+
+[package.LOM]
+source = "https://github.com/jacobwilliams/LOM"
+
+[package.LSMR]
+source = "https://github.com/jacobwilliams/LSMR"
+
+[package.LSQR]
+source = "https://github.com/jacobwilliams/LSQR"
+
+[package.lusol]
+source = "https://github.com/jacobwilliams/lusol"
+
+[package.mersenne-twister-fortran]
+source = "https://github.com/jacobwilliams/mersenne-twister-fortran"
+
+[package.minnorm_test]
+source = "https://github.com/jacobwilliams/minnorm_test"
+
+[package.moonframe]
+source = "https://github.com/jacobwilliams/moonframe"
+
+[package.mpfun2020-var1]
+source = "https://github.com/jacobwilliams/mpfun2020-var1"
+
+[package.namelist2json]
+source = "https://github.com/jacobwilliams/namelist2json"
+
+[package.nlesolver-fortran]
+source = "https://github.com/jacobwilliams/nlesolver-fortran"
+
+[package.NOVAS]
+source = "https://github.com/jacobwilliams/NOVAS"
+
+[package.NumDiff]
+source = "https://github.com/jacobwilliams/NumDiff"
+
+[package.odepack]
+source = "https://github.com/jacobwilliams/odepack"
+
+[package.openframes-fortran]
+source = "https://github.com/jacobwilliams/openframes-fortran"
+
+[package.optgra]
+source = "https://github.com/jacobwilliams/optgra"
+
+[package.PCHIP]
+source = "https://github.com/jacobwilliams/PCHIP"
+
+[package.pikaia]
+source = "https://github.com/jacobwilliams/pikaia"
+
+[package.polyroots-fortran]
+source = "https://github.com/jacobwilliams/polyroots-fortran"
+
+[package.popen-fortran]
+source = "https://github.com/jacobwilliams/popen-fortran"
+
+[package.PowellOpt]
+source = "https://github.com/jacobwilliams/PowellOpt"
+
+[package.psqp]
+source = "https://github.com/jacobwilliams/psqp"
+
+[package.pyplot-fortran]
+source = "https://github.com/jacobwilliams/pyplot-fortran"
+
+[package.qdldl-fortran]
+source = "https://github.com/jacobwilliams/qdldl-fortran"
+
+[package.qt-fortran]
+source = "https://github.com/jacobwilliams/qt-fortran"
+
+[package.quadpack]
+source = "https://github.com/jacobwilliams/quadpack"
+
+[package.quadrature-fortran]
+source = "https://github.com/jacobwilliams/quadrature-fortran"
+
+[package.radbelt]
+source = "https://github.com/jacobwilliams/radbelt"
+
+[package.regridpack]
+source = "https://github.com/jacobwilliams/regridpack"
+
+[package.rklib]
+source = "https://github.com/jacobwilliams/rklib"
+
+[package.roots-fortran]
+source = "https://github.com/jacobwilliams/roots-fortran"
+
+[package.simulated-annealing]
+source = "https://github.com/jacobwilliams/simulated-annealing"
+
+[package.slsqp]
+source = "https://github.com/jacobwilliams/slsqp"
+
+[package.specfun]
+source = "https://github.com/jacobwilliams/specfun"
+
+[package.spicelib-modifications]
+source = "https://github.com/jacobwilliams/spicelib-modifications"
+
+[package.splpak]
+source = "https://github.com/jacobwilliams/splpak"
+
+[package.sqpopt]
+source = "https://github.com/jacobwilliams/sqpopt"
+
+[package.stl-fortran]
+source = "https://github.com/jacobwilliams/stl-fortran"
+
+[package.stringsort]
+source = "https://github.com/jacobwilliams/stringsort"
+
+[package.uuid-fortran]
+source = "https://github.com/jacobwilliams/uuid-fortran"
+
+[package.vkframes]
+source = "https://github.com/jacobwilliams/vkframes"
+
+[package.adam]
+source = "https://github.com/szaghi/adam"
+
+[package.BeFoR64]
+source = "https://github.com/szaghi/BeFoR64"
+
+[package.FACE]
+source = "https://github.com/szaghi/FACE"
+
+[package.FiNeR]
+source = "https://github.com/szaghi/FiNeR"
+
+[package.FITTER]
+source = "https://github.com/szaghi/FITTER"
+
+[package.FLAP]
+source = "https://github.com/szaghi/FLAP"
+
+[package.FLOw]
+source = "https://github.com/szaghi/FLOw"
+
+[package.forbear]
+source = "https://github.com/szaghi/forbear"
+
+[package.FORESEER]
+source = "https://github.com/szaghi/FORESEER"
+
+[package.foresight]
+source = "https://github.com/szaghi/foresight"
+
+[package.forget]
+source = "https://github.com/szaghi/forget"
+
+[package.FOSSIL]
+source = "https://github.com/szaghi/FOSSIL"
+
+[package.FriVolous]
+source = "https://github.com/szaghi/FriVolous"
+
+[package.FUNDAL]
+source = "https://github.com/szaghi/FUNDAL"
+
+[package.FURY]
+source = "https://github.com/szaghi/FURY"
+
+[package.HASTY]
+source = "https://github.com/szaghi/HASTY"
+
+[package.info2acustic]
+source = "https://github.com/szaghi/info2acustic"
+
+[package.LoadBalance]
+source = "https://github.com/szaghi/LoadBalance"
+
+[package.MORTIF]
+source = "https://github.com/szaghi/MORTIF"
+
+[package.MOTIOn]
+source = "https://github.com/szaghi/MOTIOn"
+
+[package.overset-exploded]
+source = "https://github.com/szaghi/overset-exploded"
+
+[package.PENF]
+source = "https://github.com/szaghi/PENF"
+
+[package.Shu-Osher-shock-tube-problem]
+source = "https://github.com/szaghi/Shu-Osher-shock-tube-problem"
+
+[package.StringiFor]
+source = "https://github.com/szaghi/StringiFor"
+
+[package.VecFor]
+source = "https://github.com/szaghi/VecFor"
+
+[package.VTKFortran]
+source = "https://github.com/szaghi/VTKFortran"
+
+[package.xview]
+source = "https://github.com/szaghi/xview"
+
+[package.ZOO]
+source = "https://github.com/szaghi/ZOO"
+
+[package.easy]
+source = "https://github.com/urbanjost/easy"
+
+[package.fpm-gdb]
+source = "https://github.com/urbanjost/fpm-gdb"
+
+[package.fpm-search]
+source = "https://github.com/urbanjost/fpm-search"
+
+[package.general-purpose-fortran]
+source = "https://github.com/urbanjost/general-purpose-fortran"
+
+[package.M_anything]
+source = "https://github.com/urbanjost/M_anything"
+
+[package.M_args]
+source = "https://github.com/urbanjost/M_args"
+
+[package.M_attr]
+source = "https://github.com/urbanjost/M_attr"
+
+[package.M_blas]
+source = "https://github.com/urbanjost/M_blas"
+
+[package.M_calcomp]
+source = "https://github.com/urbanjost/M_calcomp"
+
+[package.M_calculator]
+source = "https://github.com/urbanjost/M_calculator"
+
+[package.M_CLI]
+source = "https://github.com/urbanjost/M_CLI"
+
+[package.M_CLI2]
+source = "https://github.com/urbanjost/M_CLI2"
+
+[package.M_color]
+source = "https://github.com/urbanjost/M_color"
+
+[package.M_datapac]
+source = "https://github.com/urbanjost/M_datapac"
+
+[package.M_display]
+source = "https://github.com/urbanjost/M_display"
+
+[package.M_draw]
+source = "https://github.com/urbanjost/M_draw"
+
+[package.M_factor]
+source = "https://github.com/urbanjost/M_factor"
+
+[package.M_fixedform]
+source = "https://github.com/urbanjost/M_fixedform"
+
+[package.M_flatten]
+source = "https://github.com/urbanjost/M_flatten"
+
+[package.M_framework]
+source = "https://github.com/urbanjost/M_framework"
+
+[package.M_graph]
+source = "https://github.com/urbanjost/M_graph"
+
+[package.M_hashkeys]
+source = "https://github.com/urbanjost/M_hashkeys"
+
+[package.M_history]
+source = "https://github.com/urbanjost/M_history"
+
+[package.M_intrinsics]
+source = "https://github.com/urbanjost/M_intrinsics"
+
+[package.M_io]
+source = "https://github.com/urbanjost/M_io"
+
+[package.M_isolatin]
+source = "https://github.com/urbanjost/M_isolatin"
+
+[package.M_kracken]
+source = "https://github.com/urbanjost/M_kracken"
+
+[package.M_kracken95]
+source = "https://github.com/urbanjost/M_kracken95"
+
+[package.M_LA]
+source = "https://github.com/urbanjost/M_LA"
+
+[package.M_list]
+source = "https://github.com/urbanjost/M_list"
+
+[package.M_manifest]
+source = "https://github.com/urbanjost/M_manifest"
+
+[package.M_match]
+source = "https://github.com/urbanjost/M_match"
+
+[package.M_matrix]
+source = "https://github.com/urbanjost/M_matrix"
+
+[package.M_msg]
+source = "https://github.com/urbanjost/M_msg"
+
+[package.M_ncurses]
+source = "https://github.com/urbanjost/M_ncurses"
+
+[package.M_orderpack]
+source = "https://github.com/urbanjost/M_orderpack"
+
+[package.M_overload]
+source = "https://github.com/urbanjost/M_overload"
+
+[package.M_path]
+source = "https://github.com/urbanjost/M_path"
+
+[package.M_pixel]
+source = "https://github.com/urbanjost/M_pixel"
+
+[package.M_process]
+source = "https://github.com/urbanjost/M_process"
+
+[package.M_random]
+source = "https://github.com/urbanjost/M_random"
+
+[package.M_readline]
+source = "https://github.com/urbanjost/M_readline"
+
+[package.M_regex]
+source = "https://github.com/urbanjost/M_regex"
+
+[package.M_sets]
+source = "https://github.com/urbanjost/M_sets"
+
+[package.M_slices]
+source = "https://github.com/urbanjost/M_slices"
+
+[package.M_sort]
+source = "https://github.com/urbanjost/M_sort"
+
+[package.M_starpac]
+source = "https://github.com/urbanjost/M_starpac"
+
+[package.M_stopwatch]
+source = "https://github.com/urbanjost/M_stopwatch"
+
+[package.M_strings]
+source = "https://github.com/urbanjost/M_strings"
+
+[package.M_system]
+source = "https://github.com/urbanjost/M_system"
+
+[package.M_time]
+source = "https://github.com/urbanjost/M_time"
+
+[package.M_ucs4]
+source = "https://github.com/urbanjost/M_ucs4"
+
+[package.M_unicode]
+source = "https://github.com/urbanjost/M_unicode"
+
+[package.M_uuid]
+source = "https://github.com/urbanjost/M_uuid"
+
+[package.prep]
+source = "https://github.com/urbanjost/prep"
+
+[package.spag_lapack]
+source = "https://github.com/urbanjost/spag_lapack"
