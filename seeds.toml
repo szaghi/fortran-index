@@ -1,9 +1,21 @@
 schema = 1
 name = "szaghi"
-description = "Fortran packages built with FoBiS or fpm (szaghi, urbanjost, jacobwilliams and the projects they collaborate on)"
+description = "Fortran packages built with FoBiS or fpm"
 
 [package.1976-standard-atmosphere]
 source = "https://github.com/jacobwilliams/1976-standard-atmosphere"
+
+[package.3DGridCode]
+source = "https://github.com/lewisfish/3DGridCode"
+
+[package.AD_dnSVM]
+source = "https://github.com/lauvergn/AD_dnSVM"
+
+[package.adam]
+source = "https://github.com/szaghi/adam"
+
+[package.agroclim-fortran]
+source = "https://github.com/takyurp09/agroclim-fortran"
 
 [package.AoC-2021]
 source = "https://github.com/jacobwilliams/AoC-2021"
@@ -23,11 +35,38 @@ source = "https://github.com/jacobwilliams/AoC-2025"
 [package.arclength]
 source = "https://github.com/jacobwilliams/arclength"
 
+[package.argparse-f]
+source = "https://github.com/0382/argparse-f"
+
 [package.argv-fortran]
 source = "https://github.com/jacobwilliams/argv-fortran"
 
+[package.arithmetic_geometric_mean_fortran]
+source = "https://github.com/DSCF-1224/arithmetic_geometric_mean_fortran"
+
 [package.astro-fortran]
 source = "https://github.com/jacobwilliams/astro-fortran"
+
+[package.athena]
+source = "https://github.com/nedtaylor/athena"
+
+[package.autodiff]
+source = "https://github.com/sgeard/autodiff"
+
+[package.BEACH]
+source = "https://github.com/Nkzono99/BEACH"
+
+[package.BeFoR64]
+source = "https://github.com/szaghi/BeFoR64"
+
+[package.blas-interface]
+source = "https://github.com/grimme-lab/blas-interface"
+
+[package.blocktran]
+source = "https://github.com/fortran-gaming/blocktran"
+
+[package.bmi-fortran]
+source = "https://github.com/csdms/bmi-fortran"
 
 [package.brouwer-elements]
 source = "https://github.com/jacobwilliams/brouwer-elements"
@@ -35,17 +74,47 @@ source = "https://github.com/jacobwilliams/brouwer-elements"
 [package.bspline-fortran]
 source = "https://github.com/jacobwilliams/bspline-fortran"
 
+[package.burg_method_fortran]
+source = "https://github.com/vzbrodov/burg_method_fortran"
+
+[package.cairo-fortran]
+source = "https://github.com/vmagnin/cairo-fortran"
+
+[package.capnp-fortran]
+source = "https://github.com/HaoZeke/capnp-fortran"
+
 [package.carlson-elliptic-integrals]
 source = "https://github.com/jacobwilliams/carlson-elliptic-integrals"
 
+[package.chem_rate_fit]
+source = "https://github.com/acooksy/chem_rate_fit"
+
 [package.ci-tester]
 source = "https://github.com/jacobwilliams/ci-tester"
+
+[package.ciaaw]
+source = "https://github.com/MilanSkocic/ciaaw"
+
+[package.codata]
+source = "https://github.com/MilanSkocic/codata"
+
+[package.collections]
+source = "https://github.com/jchristopherson/collections"
 
 [package.conmax]
 source = "https://github.com/jacobwilliams/conmax"
 
 [package.conmin]
 source = "https://github.com/jacobwilliams/conmin"
+
+[package.coretran]
+source = "https://github.com/leonfoks/coretran"
+
+[package.coreutils]
+source = "https://github.com/nedtaylor/coreutils"
+
+[package.CPCM-X]
+source = "https://github.com/grimme-lab/CPCM-X"
 
 [package.csv-fortran]
 source = "https://github.com/jacobwilliams/csv-fortran"
@@ -56,17 +125,101 @@ source = "https://github.com/jacobwilliams/daglib"
 [package.daqp-fortran]
 source = "https://github.com/jacobwilliams/daqp-fortran"
 
+[package.datastructs-fortran]
+source = "https://github.com/wcota/datastructs-fortran"
+
+[package.datetime-fortran]
+source = "https://github.com/wavebitscientific/datetime-fortran"
+
 [package.ddeabm]
 source = "https://github.com/jacobwilliams/ddeabm"
+
+[package.ddX]
+source = "https://github.com/ddsolvation/ddX"
+
+[package.DepAC]
+source = "https://github.com/rivm-syso/DepAC"
+
+[package.dftd4]
+source = "https://github.com/dftd4/dftd4"
+
+[package.dftd4-fit]
+source = "https://github.com/dftd4/dftd4-fit"
 
 [package.diff]
 source = "https://github.com/jacobwilliams/diff"
 
+[package.diffeq]
+source = "https://github.com/jchristopherson/diffeq"
+
+[package.Differentia]
+source = "https://github.com/Nicholaswogan/Differentia"
+
+[package.diffstruc]
+source = "https://github.com/nedtaylor/diffstruc"
+
+[package.dmpack]
+source = "https://github.com/dabamos/dmpack"
+
 [package.dop853]
 source = "https://github.com/jacobwilliams/dop853"
 
+[package.duckdb]
+source = "https://github.com/freevryheid/duckdb"
+
 [package.dvode]
 source = "https://github.com/jacobwilliams/dvode"
+
+[package.dynamics]
+source = "https://github.com/jchristopherson/dynamics"
+
+[package.easy]
+source = "https://github.com/urbanjost/easy"
+
+[package.ecx]
+source = "https://github.com/MilanSkocic/ecx"
+
+[package.elexi]
+source = "https://github.com/flexi-framework/elexi"
+
+[package.elphbolt]
+source = "https://github.com/nakib/elphbolt"
+
+[package.energy-fortran]
+source = "https://github.com/14NGiestas/energy-fortran"
+
+[package.ephemeris]
+source = "https://github.com/certik/ephemeris"
+
+[package."evaluate.f"]
+source = "https://github.com/davidpfister/evaluate.f"
+
+[package.FACE]
+source = "https://github.com/szaghi/FACE"
+
+[package.fastGPT]
+source = "https://github.com/certik/fastGPT"
+
+[package.fastmath]
+source = "https://github.com/perazz/fastmath"
+
+[package.fclap]
+source = "https://github.com/chselz/fclap"
+
+[package.featom]
+source = "https://github.com/atomic-solvers/featom"
+
+[package.FEATS]
+source = "https://github.com/sourceryinstitute/FEATS"
+
+[package.feq-parse]
+source = "https://github.com/FluidNumerics/feq-parse"
+
+[package.ferror]
+source = "https://github.com/jchristopherson/ferror"
+
+[package.ffilesystem]
+source = "https://github.com/scivision/ffilesystem"
 
 [package.fformat]
 source = "https://github.com/jacobwilliams/fformat"
@@ -74,53 +227,446 @@ source = "https://github.com/jacobwilliams/fformat"
 [package.ffp]
 source = "https://github.com/jacobwilliams/ffp"
 
+[package.fft_ewald]
+source = "https://github.com/Katastrophal/fft_ewald"
+
 [package.FGIF]
 source = "https://github.com/jacobwilliams/FGIF"
+
+[package.fgof-fs]
+source = "https://github.com/FortranGoingOnForty/fgof-fs"
+
+[package.fgof-process]
+source = "https://github.com/FortranGoingOnForty/fgof-process"
+
+[package.fgof-pty]
+source = "https://github.com/FortranGoingOnForty/fgof-pty"
+
+[package.fhash]
+source = "https://github.com/LKedward/fhash"
+
+[package.fig]
+source = "https://github.com/AnonMiraj/fig"
+
+[package.finbound]
+source = "https://github.com/Nkzono99/finbound"
+
+[package.FiNeR]
+source = "https://github.com/szaghi/FiNeR"
 
 [package.finterp]
 source = "https://github.com/jacobwilliams/finterp"
 
+[package.fitpack]
+source = "https://github.com/perazz/fitpack"
+
+[package.FITTER]
+source = "https://github.com/szaghi/FITTER"
+
+[package.FLAP]
+source = "https://github.com/szaghi/FLAP"
+
+[package.flexi]
+source = "https://github.com/flexi-framework/flexi"
+
+[package.flexi-extensions]
+source = "https://github.com/flexi-framework/flexi-extensions"
+
+[package.FLINT]
+source = "https://github.com/princemahajan/FLINT"
+
 [package.flist]
 source = "https://github.com/jacobwilliams/flist"
+
+[package.FLOw]
+source = "https://github.com/szaghi/FLOw"
+
+[package.fmetis]
+source = "https://github.com/ivan-pi/fmetis"
 
 [package.fmin]
 source = "https://github.com/jacobwilliams/fmin"
 
+[package.fmmap]
+source = "https://github.com/PierUgit/fmmap"
+
+[package.fo]
+source = "https://github.com/lazy-fortran/fo"
+
+[package.forbear]
+source = "https://github.com/szaghi/forbear"
+
+[package.forblas]
+source = "https://github.com/gha3mi/forblas"
+
+[package.forcad]
+source = "https://github.com/gha3mi/forcad"
+
+[package.forclust]
+source = "https://github.com/gha3mi/forclust"
+
+[package.forcolormap]
+source = "https://github.com/vmagnin/forcolormap"
+
+[package.forcompile]
+source = "https://github.com/gha3mi/forcompile"
+
+[package.fordebug]
+source = "https://github.com/gha3mi/fordebug"
+
+[package.fordiff]
+source = "https://github.com/gha3mi/fordiff"
+
+[package.fordot]
+source = "https://github.com/gha3mi/fordot"
+
+[package.foreig]
+source = "https://github.com/gha3mi/foreig"
+
+[package.FORESEER]
+source = "https://github.com/szaghi/FORESEER"
+
+[package.foresight]
+source = "https://github.com/szaghi/foresight"
+
+[package.forget]
+source = "https://github.com/szaghi/forget"
+
+[package.forgex]
+source = "https://github.com/ShinobuAmasaki/forgex"
+
+[package.forimage]
+source = "https://github.com/gha3mi/forimage"
+
+[package.forinv]
+source = "https://github.com/gha3mi/forinv"
+
+[package.forlab]
+source = "https://github.com/zoziha/forlab"
+
+[package.forlapack]
+source = "https://github.com/gha3mi/forlapack"
+
+[package.formatmul]
+source = "https://github.com/gha3mi/formatmul"
+
+[package.formidi]
+source = "https://github.com/vmagnin/formidi"
+
+[package.formine]
+source = "https://github.com/jordan4ibanez/formine"
+
+[package.foropenai]
+source = "https://github.com/gha3mi/foropenai"
+
+[package.forpca]
+source = "https://github.com/gha3mi/forpca"
+
+[package.forplay]
+source = "https://github.com/lesquoyb/forplay"
+
+[package.forsolver]
+source = "https://github.com/gha3mi/forsolver"
+
+[package.ForSudoku]
+source = "https://github.com/vmagnin/ForSudoku"
+
+[package.forsvd]
+source = "https://github.com/gha3mi/forsvd"
+
+[package.forsynth]
+source = "https://github.com/vmagnin/forsynth"
+
+[package.fortad]
+source = "https://github.com/lazy-fortran/fortad"
+
+[package.fortarray]
+source = "https://github.com/lazy-fortran/fortarray"
+
+[package.fortfront]
+source = "https://github.com/lazy-fortran/fortfront"
+
+[package.fortime]
+source = "https://github.com/gha3mi/fortime"
+
+[package.fortio]
+source = "https://github.com/lazy-fortran/fortio"
+
+[package.fortml]
+source = "https://github.com/lazy-fortran/fortml"
+
+[package.fortnum]
+source = "https://github.com/lazy-fortran/fortnum"
+
+[package.fortplot]
+source = "https://github.com/lazy-fortran/fortplot"
+
 [package.Fortran-Astrodynamics-Toolkit]
 source = "https://github.com/jacobwilliams/Fortran-Astrodynamics-Toolkit"
+
+[package.fortran-bessels]
+source = "https://github.com/perazz/fortran-bessels"
 
 [package.fortran-compiler-tester]
 source = "https://github.com/jacobwilliams/fortran-compiler-tester"
 
+[package.fortran-cpp-interface]
+source = "https://github.com/scivision/fortran-cpp-interface"
+
+[package.fortran-curl]
+source = "https://github.com/interkosmos/fortran-curl"
+
+[package.fortran-debug-utils]
+source = "https://github.com/plevold/fortran-debug-utils"
+
+[package.Fortran-Design-Patterns]
+source = "https://github.com/zoziha/Fortran-Design-Patterns"
+
+[package.fortran-donut]
+source = "https://github.com/fortran-gaming/fortran-donut"
+
+[package.fortran-error-handler]
+source = "https://github.com/samharrison7/fortran-error-handler"
+
+[package.fortran-error-handling]
+source = "https://github.com/SINTEF/fortran-error-handling"
+
+[package.fortran-fast-float]
+source = "https://github.com/perazz/fortran-fast-float"
+
+[package.fortran-flann]
+source = "https://github.com/ivan-pi/fortran-flann"
+
+[package.fortran-lapack]
+source = "https://github.com/perazz/fortran-lapack"
+
+[package.Fortran-Logo-Generator]
+source = "https://github.com/han190/Fortran-Logo-Generator"
+
+[package.fortran-lua53]
+source = "https://github.com/interkosmos/fortran-lua53"
+
+[package.fortran-lua54]
+source = "https://github.com/interkosmos/fortran-lua54"
+
 [package.fortran-mach]
 source = "https://github.com/jacobwilliams/fortran-mach"
+
+[package.fortran-messagepack]
+source = "https://github.com/synthfi/fortran-messagepack"
+
+[package.fortran-modbus]
+source = "https://github.com/interkosmos/fortran-modbus"
+
+[package.fortran-ncurses]
+source = "https://github.com/interkosmos/fortran-ncurses"
+
+[package.fortran-nng]
+source = "https://github.com/interkosmos/fortran-nng"
+
+[package.fortran-pcre2]
+source = "https://github.com/interkosmos/fortran-pcre2"
+
+[package.fortran-primes]
+source = "https://github.com/perazz/fortran-primes"
+
+[package.fortran-raylib]
+source = "https://github.com/interkosmos/fortran-raylib"
+
+[package.fortran-regex]
+source = "https://github.com/perazz/fortran-regex"
+
+[package.fortran-s3-accessor]
+source = "https://github.com/pgierz/fortran-s3-accessor"
+
+[package.fortran-sdl2]
+source = "https://github.com/interkosmos/fortran-sdl2"
 
 [package.fortran-search-and-sort]
 source = "https://github.com/jacobwilliams/fortran-search-and-sort"
 
-[package.fortranpack]
-source = "https://github.com/jacobwilliams/fortranpack"
+[package.fortran-shlex]
+source = "https://github.com/perazz/fortran-shlex"
+
+[package.fortran-sleep]
+source = "https://github.com/scivision/fortran-sleep"
+
+[package.fortran-sqlite3]
+source = "https://github.com/interkosmos/fortran-sqlite3"
+
+[package.fortran-tcl86]
+source = "https://github.com/interkosmos/fortran-tcl86"
+
+[package.fortran-tokenizer]
+source = "https://github.com/14NGiestas/fortran-tokenizer"
+
+[package.fortran-unix]
+source = "https://github.com/interkosmos/fortran-unix"
+
+[package.fortran-xlib]
+source = "https://github.com/interkosmos/fortran-xlib"
+
+[package.fortran-xmpp]
+source = "https://github.com/interkosmos/fortran-xmpp"
+
+[package.fortran-zlib]
+source = "https://github.com/interkosmos/fortran-zlib"
+
+[package.fortran-zstd]
+source = "https://github.com/interkosmos/fortran-zstd"
 
 [package.fortran_function_parser]
 source = "https://github.com/jacobwilliams/fortran_function_parser"
 
+[package.fortran_meson_py]
+source = "https://github.com/SalvadorBrandolin/fortran_meson_py"
+
+[package.fortran_tev_bindings]
+source = "https://github.com/lewisfish/fortran_tev_bindings"
+
+[package.fortranDF]
+source = "https://github.com/jaiken17/fortranDF"
+
+[package.fortranpack]
+source = "https://github.com/jacobwilliams/fortranpack"
+
+[package.FortranPatterns]
+source = "https://github.com/farhanjk/FortranPatterns"
+
+[package.fortress]
+source = "https://github.com/FortranGoingOnForty/fortress"
+
+[package.FOSSIL]
+source = "https://github.com/szaghi/FOSSIL"
+
+[package.fplotlib]
+source = "https://github.com/fortran-lang/fplotlib"
+
+[package.fpm]
+source = "https://github.com/fortran-lang/fpm"
+
+[package.fpm-gdb]
+source = "https://github.com/urbanjost/fpm-gdb"
+
+[package.fpm-search]
+source = "https://github.com/urbanjost/fpm-search"
+
+[package."fpx.f"]
+source = "https://github.com/davidpfister/fpx.f"
+
 [package.fregex]
 source = "https://github.com/jacobwilliams/fregex"
+
+[package.friction]
+source = "https://github.com/jchristopherson/friction"
+
+[package.FriVolous]
+source = "https://github.com/szaghi/FriVolous"
+
+[package.Frumpy]
+source = "https://github.com/LynnColeArt/Frumpy"
+
+[package.fsml]
+source = "https://github.com/sebastian-mutz/fsml"
+
+[package.fstats]
+source = "https://github.com/jchristopherson/fstats"
+
+[package.fstring]
+source = "https://github.com/jchristopherson/fstring"
+
+[package.functional-fortran]
+source = "https://github.com/wavebitscientific/functional-fortran"
+
+[package.FUNDAL]
+source = "https://github.com/szaghi/FUNDAL"
+
+[package.fundamental_constants]
+source = "https://github.com/vmagnin/fundamental_constants"
+
+[package.FURY]
+source = "https://github.com/szaghi/FURY"
+
+[package.gambits]
+source = "https://github.com/tblite/gambits"
+
+[package.GaussJacobiQuad]
+source = "https://github.com/HaoZeke/GaussJacobiQuad"
+
+[package.gcp]
+source = "https://github.com/grimme-lab/gcp"
+
+[package.general-purpose-fortran]
+source = "https://github.com/urbanjost/general-purpose-fortran"
 
 [package.geodesic-fortran]
 source = "https://github.com/jacobwilliams/geodesic-fortran"
 
+[package.geompack]
+source = "https://github.com/jchristopherson/geompack"
+
+[package.gila-integrator]
+source = "https://github.com/coriollis-nico/gila-integrator"
+
+[package.GLISS]
+source = "https://github.com/itpplasma/GLISS"
+
+[package.graphstruc]
+source = "https://github.com/nedtaylor/graphstruc"
+
+[package.gtk-fortran]
+source = "https://github.com/vmagnin/gtk-fortran"
+
+[package.h5fortran]
+source = "https://github.com/geospace-code/h5fortran"
+
+[package.h5fortran-mpi]
+source = "https://github.com/geospace-code/h5fortran-mpi"
+
 [package.halo]
 source = "https://github.com/jacobwilliams/halo"
+
+[package.HASTY]
+source = "https://github.com/szaghi/HASTY"
+
+[package.HoneyTools]
+source = "https://github.com/beddalumia/HoneyTools"
+
+[package.HR-WENO]
+source = "https://github.com/HugoMVale/HR-WENO"
+
+[package.http-client]
+source = "https://github.com/fortran-lang/http-client"
 
 [package.HWM14]
 source = "https://github.com/jacobwilliams/HWM14"
 
+[package.hyperSIS]
+source = "https://github.com/gisc-ufv/hyperSIS"
+
+[package.iapws]
+source = "https://github.com/MilanSkocic/iapws"
+
 [package.IGRF]
 source = "https://github.com/jacobwilliams/IGRF"
 
+[package.img2nc]
+source = "https://github.com/ShinobuAmasaki/img2nc"
+
+[package.info2acustic]
+source = "https://github.com/szaghi/info2acustic"
+
+[package.IO-Fortran-Library]
+source = "https://github.com/acbbullock/IO-Fortran-Library"
+
+[package.iso_varying_string]
+source = "https://github.com/everythingfunctional/iso_varying_string"
+
 [package.jacchia-roberts-fortran]
 source = "https://github.com/jacobwilliams/jacchia-roberts-fortran"
+
+[package.jonquil]
+source = "https://github.com/toml-f/jonquil"
 
 [package.json-fortran]
 source = "https://github.com/jacobwilliams/json-fortran"
@@ -131,8 +677,53 @@ source = "https://github.com/jacobwilliams/json-fortran-benchmarks"
 [package.kronrod]
 source = "https://github.com/jacobwilliams/kronrod"
 
+[package.KSROP]
+source = "https://github.com/hari251086/KSROP"
+
+[package.KWN-deformation]
+source = "https://github.com/LightForm-group/KWN-deformation"
+
+[package.lahva]
+source = "https://github.com/tblite/lahva"
+
+[package.lapack-interface]
+source = "https://github.com/grimme-lab/lapack-interface"
+
 [package.lbfgsb]
 source = "https://github.com/jacobwilliams/lbfgsb"
+
+[package.legendre_polynomial_closed_form_fortran]
+source = "https://github.com/DSCF-1224/legendre_polynomial_closed_form_fortran"
+
+[package.libarvo]
+source = "https://github.com/rlaplaza/libarvo"
+
+[package.libconeangle]
+source = "https://github.com/digital-chemistry-laboratory/libconeangle"
+
+[package.libfint]
+source = "https://github.com/JorgeG94/libfint"
+
+[package.libneo]
+source = "https://github.com/itpplasma/libneo"
+
+[package.libpq-fortran]
+source = "https://github.com/ShinobuAmasaki/libpq-fortran"
+
+[package.libxs]
+source = "https://github.com/hfp/libxs"
+
+[package.libxsmm]
+source = "https://github.com/libxsmm/libxsmm"
+
+[package.LightKrylov]
+source = "https://github.com/nekStab/LightKrylov"
+
+[package.linalg]
+source = "https://github.com/jchristopherson/linalg"
+
+[package.LoadBalance]
+source = "https://github.com/szaghi/LoadBalance"
 
 [package.LOM]
 source = "https://github.com/jacobwilliams/LOM"
@@ -145,210 +736,6 @@ source = "https://github.com/jacobwilliams/LSQR"
 
 [package.lusol]
 source = "https://github.com/jacobwilliams/lusol"
-
-[package.mersenne-twister-fortran]
-source = "https://github.com/jacobwilliams/mersenne-twister-fortran"
-
-[package.minnorm_test]
-source = "https://github.com/jacobwilliams/minnorm_test"
-
-[package.moonframe]
-source = "https://github.com/jacobwilliams/moonframe"
-
-[package.mpfun2020-var1]
-source = "https://github.com/jacobwilliams/mpfun2020-var1"
-
-[package.namelist2json]
-source = "https://github.com/jacobwilliams/namelist2json"
-
-[package.nlesolver-fortran]
-source = "https://github.com/jacobwilliams/nlesolver-fortran"
-
-[package.NOVAS]
-source = "https://github.com/jacobwilliams/NOVAS"
-
-[package.NumDiff]
-source = "https://github.com/jacobwilliams/NumDiff"
-
-[package.odepack]
-source = "https://github.com/jacobwilliams/odepack"
-
-[package.openframes-fortran]
-source = "https://github.com/jacobwilliams/openframes-fortran"
-
-[package.optgra]
-source = "https://github.com/jacobwilliams/optgra"
-
-[package.PCHIP]
-source = "https://github.com/jacobwilliams/PCHIP"
-
-[package.pikaia]
-source = "https://github.com/jacobwilliams/pikaia"
-
-[package.polyroots-fortran]
-source = "https://github.com/jacobwilliams/polyroots-fortran"
-
-[package.popen-fortran]
-source = "https://github.com/jacobwilliams/popen-fortran"
-
-[package.PowellOpt]
-source = "https://github.com/jacobwilliams/PowellOpt"
-
-[package.psqp]
-source = "https://github.com/jacobwilliams/psqp"
-
-[package.pyplot-fortran]
-source = "https://github.com/jacobwilliams/pyplot-fortran"
-
-[package.qdldl-fortran]
-source = "https://github.com/jacobwilliams/qdldl-fortran"
-
-[package.qt-fortran]
-source = "https://github.com/jacobwilliams/qt-fortran"
-
-[package.quadpack]
-source = "https://github.com/jacobwilliams/quadpack"
-
-[package.quadrature-fortran]
-source = "https://github.com/jacobwilliams/quadrature-fortran"
-
-[package.radbelt]
-source = "https://github.com/jacobwilliams/radbelt"
-
-[package.regridpack]
-source = "https://github.com/jacobwilliams/regridpack"
-
-[package.rklib]
-source = "https://github.com/jacobwilliams/rklib"
-
-[package.roots-fortran]
-source = "https://github.com/jacobwilliams/roots-fortran"
-
-[package.simulated-annealing]
-source = "https://github.com/jacobwilliams/simulated-annealing"
-
-[package.slsqp]
-source = "https://github.com/jacobwilliams/slsqp"
-
-[package.specfun]
-source = "https://github.com/jacobwilliams/specfun"
-
-[package.spicelib-modifications]
-source = "https://github.com/jacobwilliams/spicelib-modifications"
-
-[package.splpak]
-source = "https://github.com/jacobwilliams/splpak"
-
-[package.sqpopt]
-source = "https://github.com/jacobwilliams/sqpopt"
-
-[package.stl-fortran]
-source = "https://github.com/jacobwilliams/stl-fortran"
-
-[package.stringsort]
-source = "https://github.com/jacobwilliams/stringsort"
-
-[package.uuid-fortran]
-source = "https://github.com/jacobwilliams/uuid-fortran"
-
-[package.vkframes]
-source = "https://github.com/jacobwilliams/vkframes"
-
-[package.adam]
-source = "https://github.com/szaghi/adam"
-
-[package.BeFoR64]
-source = "https://github.com/szaghi/BeFoR64"
-
-[package.FACE]
-source = "https://github.com/szaghi/FACE"
-
-[package.FiNeR]
-source = "https://github.com/szaghi/FiNeR"
-
-[package.FITTER]
-source = "https://github.com/szaghi/FITTER"
-
-[package.FLAP]
-source = "https://github.com/szaghi/FLAP"
-
-[package.FLOw]
-source = "https://github.com/szaghi/FLOw"
-
-[package.forbear]
-source = "https://github.com/szaghi/forbear"
-
-[package.FORESEER]
-source = "https://github.com/szaghi/FORESEER"
-
-[package.foresight]
-source = "https://github.com/szaghi/foresight"
-
-[package.forget]
-source = "https://github.com/szaghi/forget"
-
-[package.FOSSIL]
-source = "https://github.com/szaghi/FOSSIL"
-
-[package.FriVolous]
-source = "https://github.com/szaghi/FriVolous"
-
-[package.FUNDAL]
-source = "https://github.com/szaghi/FUNDAL"
-
-[package.FURY]
-source = "https://github.com/szaghi/FURY"
-
-[package.HASTY]
-source = "https://github.com/szaghi/HASTY"
-
-[package.info2acustic]
-source = "https://github.com/szaghi/info2acustic"
-
-[package.LoadBalance]
-source = "https://github.com/szaghi/LoadBalance"
-
-[package.MORTIF]
-source = "https://github.com/szaghi/MORTIF"
-
-[package.MOTIOn]
-source = "https://github.com/szaghi/MOTIOn"
-
-[package.overset-exploded]
-source = "https://github.com/szaghi/overset-exploded"
-
-[package.PENF]
-source = "https://github.com/szaghi/PENF"
-
-[package.Shu-Osher-shock-tube-problem]
-source = "https://github.com/szaghi/Shu-Osher-shock-tube-problem"
-
-[package.StringiFor]
-source = "https://github.com/szaghi/StringiFor"
-
-[package.VecFor]
-source = "https://github.com/szaghi/VecFor"
-
-[package.VTKFortran]
-source = "https://github.com/szaghi/VTKFortran"
-
-[package.xview]
-source = "https://github.com/szaghi/xview"
-
-[package.ZOO]
-source = "https://github.com/szaghi/ZOO"
-
-[package.easy]
-source = "https://github.com/urbanjost/easy"
-
-[package.fpm-gdb]
-source = "https://github.com/urbanjost/fpm-gdb"
-
-[package.fpm-search]
-source = "https://github.com/urbanjost/fpm-search"
-
-[package.general-purpose-fortran]
-source = "https://github.com/urbanjost/general-purpose-fortran"
 
 [package.M_anything]
 source = "https://github.com/urbanjost/M_anything"
@@ -500,8 +887,386 @@ source = "https://github.com/urbanjost/M_unicode"
 [package.M_uuid]
 source = "https://github.com/urbanjost/M_uuid"
 
+[package.maptran3d]
+source = "https://github.com/geospace-code/maptran3d"
+
+[package.mctc-lib]
+source = "https://github.com/grimme-lab/mctc-lib"
+
+[package.mersenne-twister-fortran]
+source = "https://github.com/jacobwilliams/mersenne-twister-fortran"
+
+[package.metalquicha]
+source = "https://github.com/JorgeG94/metalquicha"
+
+[package.mfi]
+source = "https://github.com/14NGiestas/mfi"
+
+[package.minnorm_test]
+source = "https://github.com/jacobwilliams/minnorm_test"
+
+[package.ModMet]
+source = "https://github.com/rivm-syso/ModMet"
+
+[package.MOKIT]
+source = "https://github.com/1234zou/MOKIT"
+
+[package.MongrelDB-Fortran]
+source = "https://github.com/visorcraft/MongrelDB-Fortran"
+
+[package.moonframe]
+source = "https://github.com/jacobwilliams/moonframe"
+
+[package.MORTIF]
+source = "https://github.com/szaghi/MORTIF"
+
+[package.MOTIOn]
+source = "https://github.com/szaghi/MOTIOn"
+
+[package.mpfun2020-var1]
+source = "https://github.com/jacobwilliams/mpfun2020-var1"
+
+[package.mpi-project-exploration]
+source = "https://github.com/MatthAlex/mpi-project-exploration"
+
+[package.mstore]
+source = "https://github.com/grimme-lab/mstore"
+
+[package.multicharge]
+source = "https://github.com/grimme-lab/multicharge"
+
+[package.namelist2json]
+source = "https://github.com/jacobwilliams/namelist2json"
+
+[package.nanofase]
+source = "https://github.com/NERC-CEH/nanofase"
+
+[package.nc4fortran]
+source = "https://github.com/geospace-code/nc4fortran"
+
+[package.neural-fortran]
+source = "https://github.com/modern-fortran/neural-fortran"
+
+[package.NIST-Blackjack]
+source = "https://github.com/fortran-gaming/NIST-Blackjack"
+
+[package.nlesolver-fortran]
+source = "https://github.com/jacobwilliams/nlesolver-fortran"
+
+[package.nlopt-f]
+source = "https://github.com/grimme-lab/nlopt-f"
+
+[package.nonlin]
+source = "https://github.com/jchristopherson/nonlin"
+
+[package.NOVAS]
+source = "https://github.com/jacobwilliams/NOVAS"
+
+[package.NumDiff]
+source = "https://github.com/jacobwilliams/NumDiff"
+
+[package.numsa]
+source = "https://github.com/grimme-lab/numsa"
+
+[package."odbc.f"]
+source = "https://github.com/davidpfister/odbc.f"
+
+[package.odepack]
+source = "https://github.com/jacobwilliams/odepack"
+
+[package.odrpack95]
+source = "https://github.com/HugoMVale/odrpack95"
+
+[package.oolong]
+source = "https://github.com/EdHone/oolong"
+
+[package.openframes-fortran]
+source = "https://github.com/jacobwilliams/openframes-fortran"
+
+[package.optgra]
+source = "https://github.com/jacobwilliams/optgra"
+
+[package.overset-exploded]
+source = "https://github.com/szaghi/overset-exploded"
+
+[package.packmol]
+source = "https://github.com/m3g/packmol"
+
+[package.paramcard]
+source = "https://github.com/tueda/paramcard"
+
+[package.parff]
+source = "https://github.com/everythingfunctional/parff"
+
+[package.parquet-fortran]
+source = "https://github.com/etempel/parquet-fortran"
+
+[package.PCHIP]
+source = "https://github.com/jacobwilliams/PCHIP"
+
+[package.peaks]
+source = "https://github.com/jchristopherson/peaks"
+
+[package.PENF]
+source = "https://github.com/szaghi/PENF"
+
+[package.phanerotes]
+source = "https://github.com/free-variation/phanerotes"
+
+[package.phonon-charge-pdf]
+source = "https://github.com/det-lab/phonon-charge-pdf"
+
+[package.pic]
+source = "https://github.com/JorgeG94/pic"
+
+[package.pic-blas]
+source = "https://github.com/JorgeG94/pic-blas"
+
+[package.pic-mpi]
+source = "https://github.com/JorgeG94/pic-mpi"
+
+[package.piclas]
+source = "https://github.com/piclas-framework/piclas"
+
+[package.pikaia]
+source = "https://github.com/jacobwilliams/pikaia"
+
+[package.polyroots-fortran]
+source = "https://github.com/jacobwilliams/polyroots-fortran"
+
+[package.popen-fortran]
+source = "https://github.com/jacobwilliams/popen-fortran"
+
+[package.PowellOpt]
+source = "https://github.com/jacobwilliams/PowellOpt"
+
 [package.prep]
 source = "https://github.com/urbanjost/prep"
 
+[package.psqp]
+source = "https://github.com/jacobwilliams/psqp"
+
+[package.pyplot-fortran]
+source = "https://github.com/jacobwilliams/pyplot-fortran"
+
+[package.qdldl-fortran]
+source = "https://github.com/jacobwilliams/qdldl-fortran"
+
+[package.QDUtilLib]
+source = "https://github.com/lauvergn/QDUtilLib"
+
+[package.qfyaml]
+source = "https://github.com/yantosca/qfyaml"
+
+[package.qrupdate-ng]
+source = "https://github.com/mpimd-csc/qrupdate-ng"
+
+[package.qt-fortran]
+source = "https://github.com/jacobwilliams/qt-fortran"
+
+[package.quadpack]
+source = "https://github.com/jacobwilliams/quadpack"
+
+[package.QuadProg]
+source = "https://github.com/loiseaujc/QuadProg"
+
+[package.quadrature-fortran]
+source = "https://github.com/jacobwilliams/quadrature-fortran"
+
+[package.quaff]
+source = "https://github.com/everythingfunctional/quaff"
+
+[package.qvSZP]
+source = "https://github.com/grimme-lab/qvSZP"
+
+[package.radbelt]
+source = "https://github.com/jacobwilliams/radbelt"
+
+[package.RAFFLE]
+source = "https://github.com/ExeQuantCode/RAFFLE"
+
+[package.regridpack]
+source = "https://github.com/jacobwilliams/regridpack"
+
+[package.rklib]
+source = "https://github.com/jacobwilliams/rklib"
+
+[package.rmsd-tool]
+source = "https://github.com/grimme-lab/rmsd-tool"
+
+[package.rndgen-fortran]
+source = "https://github.com/wcota/rndgen-fortran"
+
+[package.rocket-science]
+source = "https://github.com/sourceryinstitute/rocket-science"
+
+[package.rojff]
+source = "https://github.com/everythingfunctional/rojff"
+
+[package.roots-fortran]
+source = "https://github.com/jacobwilliams/roots-fortran"
+
+[package.ROTEX]
+source = "https://github.com/banana-bred/ROTEX"
+
+[package.rpn-calculator-fortran]
+source = "https://github.com/scivision/rpn-calculator-fortran"
+
+[package.run-f]
+source = "https://github.com/minhqdao/run-f"
+
+[package.safetensors-fortran]
+source = "https://github.com/14NGiestas/safetensors-fortran"
+
+[package.seiscope_opt_toolbox_w_ctypes]
+source = "https://github.com/ofmla/seiscope_opt_toolbox_w_ctypes"
+
+[package.setup-fortran-conda]
+source = "https://github.com/gha3mi/setup-fortran-conda"
+
+[package.sheath-model]
+source = "https://github.com/Nkzono99/sheath-model"
+
+[package.SHTOOLS]
+source = "https://github.com/SHTOOLS/SHTOOLS"
+
+[package.Shu-Osher-shock-tube-problem]
+source = "https://github.com/szaghi/Shu-Osher-shock-tube-problem"
+
+[package.shunting-yard-fortran]
+source = "https://github.com/14NGiestas/shunting-yard-fortran"
+
+[package.signedMCRT]
+source = "https://github.com/lewisfish/signedMCRT"
+
+[package.SIMPLE]
+source = "https://github.com/itpplasma/SIMPLE"
+
+[package.simple-dftd3]
+source = "https://github.com/dftd3/simple-dftd3"
+
+[package.simulated-annealing]
+source = "https://github.com/jacobwilliams/simulated-annealing"
+
+[package.skynet-fortran]
+source = "https://github.com/MrGlockenspiel/skynet-fortran"
+
+[package.SLATEC]
+source = "https://github.com/Zaneham/SLATEC"
+
+[package.SLICOT-Reference]
+source = "https://github.com/SLICOT/SLICOT-Reference"
+
+[package.slsqp]
+source = "https://github.com/jacobwilliams/slsqp"
+
+[package.smart-pointers]
+source = "https://github.com/sourceryinstitute/smart-pointers"
+
+[package.snoopy-calendar]
+source = "https://github.com/fortran-gaming/snoopy-calendar"
+
+[package.sourcery]
+source = "https://github.com/sourceryinstitute/sourcery"
+
 [package.spag_lapack]
 source = "https://github.com/urbanjost/spag_lapack"
+
+[package.specfun]
+source = "https://github.com/jacobwilliams/specfun"
+
+[package.spectrum]
+source = "https://github.com/jchristopherson/spectrum"
+
+[package.sph]
+source = "https://github.com/zoziha/sph"
+
+[package.spicelib-modifications]
+source = "https://github.com/jacobwilliams/spicelib-modifications"
+
+[package.splpak]
+source = "https://github.com/jacobwilliams/splpak"
+
+[package.sqliteff]
+source = "https://github.com/everythingfunctional/sqliteff"
+
+[package.sqpopt]
+source = "https://github.com/jacobwilliams/sqpopt"
+
+[package.sqr]
+source = "https://github.com/sgeard/sqr"
+
+[package.stdlib]
+source = "https://github.com/fortran-lang/stdlib"
+
+[package.stiff3]
+source = "https://github.com/ivan-pi/stiff3"
+
+[package.stl-fortran]
+source = "https://github.com/jacobwilliams/stl-fortran"
+
+[package.strff]
+source = "https://github.com/everythingfunctional/strff"
+
+[package.StringiFor]
+source = "https://github.com/szaghi/StringiFor"
+
+[package.stringsort]
+source = "https://github.com/jacobwilliams/stringsort"
+
+[package."subprocess.f"]
+source = "https://github.com/davidpfister/subprocess.f"
+
+[package.syntran]
+source = "https://github.com/JeffIrwin/syntran"
+
+[package.TapTempo-Fortran]
+source = "https://github.com/vmagnin/TapTempo-Fortran"
+
+[package.tblite]
+source = "https://github.com/tblite/tblite"
+
+[package.thermotwin]
+source = "https://github.com/abhijith-sivaprasadan/thermotwin"
+
+[package.toml-f]
+source = "https://github.com/toml-f/toml-f"
+
+[package.umwm]
+source = "https://github.com/umwm/umwm"
+
+[package.uuid-fortran]
+source = "https://github.com/jacobwilliams/uuid-fortran"
+
+[package.vdist-solver-fortran]
+source = "https://github.com/Nkzono99/vdist-solver-fortran"
+
+[package.VecFor]
+source = "https://github.com/szaghi/VecFor"
+
+[package.version-f]
+source = "https://github.com/minhqdao/version-f"
+
+[package.vkframes]
+source = "https://github.com/jacobwilliams/vkframes"
+
+[package.VTKFortran]
+source = "https://github.com/szaghi/VTKFortran"
+
+[package.wandb-fortran]
+source = "https://github.com/nedtaylor/wandb-fortran"
+
+[package.wav-fortran]
+source = "https://github.com/Murase-Hijiri/wav-fortran"
+
+[package.xslib]
+source = "https://github.com/JureCerar/xslib"
+
+[package.xview]
+source = "https://github.com/szaghi/xview"
+
+[package.yaeos]
+source = "https://github.com/ipqa-research/yaeos"
+
+[package.ZOO]
+source = "https://github.com/szaghi/ZOO"
