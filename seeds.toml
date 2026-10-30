@@ -293,6 +293,9 @@ source = "https://github.com/PierUgit/fmmap"
 [package.fo]
 source = "https://github.com/lazy-fortran/fo"
 
+[package.FOODIE]
+source = "https://github.com/Fortran-FOSS-Programmers/FOODIE"
+
 [package.forbear]
 source = "https://github.com/szaghi/forbear"
 
@@ -538,6 +541,9 @@ source = "https://github.com/FortranGoingOnForty/fortress"
 
 [package.FOSSIL]
 source = "https://github.com/szaghi/FOSSIL"
+
+[package.FoXy]
+source = "https://github.com/Fortran-FOSS-Programmers/FoXy"
 
 [package.fplotlib]
 source = "https://github.com/fortran-lang/fplotlib"
@@ -1198,6 +1204,8 @@ source = "https://github.com/sgeard/sqr"
 
 [package.stdlib]
 source = "https://github.com/fortran-lang/stdlib"
+description = "Fortran Standard Library: a community-driven library of utilities for modern Fortran"
+recipe = "recipes/stdlib.toml"
 
 [package.stiff3]
 source = "https://github.com/ivan-pi/stiff3"

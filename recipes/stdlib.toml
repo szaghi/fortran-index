@@ -1,0 +1,7 @@
+# fortran-lang/stdlib writes its sources as fypp templates: its CMake build runs fypp first
+# (pip install fypp). The reference BLAS/LAPACK bundled with stdlib is used, so the
+# installed library needs no external one.
+schema     = 1
+backend    = "cmake"
+externals  = ["fypp"]
+cmake-args = ["-DBUILD_TESTING=OFF", "-DFIND_BLAS=OFF"]
