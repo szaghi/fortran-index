@@ -44,6 +44,10 @@ source = "https://github.com/jacobwilliams/argv-fortran"
 [package.arithmetic_geometric_mean_fortran]
 source = "https://github.com/DSCF-1224/arithmetic_geometric_mean_fortran"
 
+[package.assert]
+source = "https://github.com/BerkeleyLab/assert"
+license = "BSD-3-Clause-LBNL"
+
 [package.astro-fortran]
 source = "https://github.com/jacobwilliams/astro-fortran"
 
@@ -188,6 +192,10 @@ source = "https://github.com/nakib/elphbolt"
 [package.energy-fortran]
 source = "https://github.com/14NGiestas/energy-fortran"
 
+[package.Enzyme]
+source = "https://github.com/EnzymeAD/Enzyme"
+license = "Apache-2.0 WITH LLVM-exception"
+
 [package.ephemeris]
 source = "https://github.com/certik/ephemeris"
 
@@ -196,6 +204,10 @@ source = "https://github.com/davidpfister/evaluate.f"
 
 [package.FACE]
 source = "https://github.com/szaghi/FACE"
+
+[package.fast_math]
+source = "https://github.com/jalvesz/fast_math"
+license = "MIT"
 
 [package.fastGPT]
 source = "https://github.com/certik/fastGPT"
@@ -230,6 +242,10 @@ source = "https://github.com/jacobwilliams/ffp"
 [package.fft_ewald]
 source = "https://github.com/Katastrophal/fft_ewald"
 
+[package.fftpack]
+source = "https://github.com/fortran-lang/fftpack"
+license = "MIT"
+
 [package.FGIF]
 source = "https://github.com/jacobwilliams/FGIF"
 
@@ -244,6 +260,10 @@ source = "https://github.com/FortranGoingOnForty/fgof-pty"
 
 [package.fhash]
 source = "https://github.com/LKedward/fhash"
+
+[package.fiats]
+source = "https://github.com/BerkeleyLab/fiats"
+license = "BSD-3-Clause-LBNL"
 
 [package.fig]
 source = "https://github.com/AnonMiraj/fig"
@@ -349,6 +369,10 @@ source = "https://github.com/zoziha/forlab"
 
 [package.forlapack]
 source = "https://github.com/gha3mi/forlapack"
+
+[package.formal]
+source = "https://github.com/BerkeleyLab/formal"
+license = "BSD-3-Clause-LBNL"
 
 [package.formatmul]
 source = "https://github.com/gha3mi/formatmul"
@@ -539,17 +563,38 @@ source = "https://github.com/farhanjk/FortranPatterns"
 [package.fortress]
 source = "https://github.com/FortranGoingOnForty/fortress"
 
+[package.fortuno-fpm-coarray]
+source = "https://github.com/fortuno-repos/fortuno-fpm-coarray"
+license = "BSD-2-Clause-Patent"
+
+[package.fortuno-fpm-mpi]
+source = "https://github.com/fortuno-repos/fortuno-fpm-mpi"
+license = "BSD-2-Clause-Patent"
+
+[package.fortuno-fpm-serial]
+source = "https://github.com/fortuno-repos/fortuno-fpm-serial"
+license = "BSD-2-Clause-Patent"
+
 [package.FOSSIL]
 source = "https://github.com/szaghi/FOSSIL"
 
 [package.FoXy]
 source = "https://github.com/Fortran-FOSS-Programmers/FoXy"
 
+[package.fplot]
+source = "https://github.com/jchristopherson/fplot"
+license = "MIT"
+
 [package.fplotlib]
 source = "https://github.com/fortran-lang/fplotlib"
 
 [package.fpm]
 source = "https://github.com/fortran-lang/fpm"
+
+[package.fpm-find]
+source = "https://github.com/BerkeleyLab/fpm-find"
+description = "A Fortran Package Manager plugin for searching fortran-lang's package index"
+license = "MIT"
 
 [package.fpm-gdb]
 source = "https://github.com/urbanjost/fpm-gdb"
@@ -574,6 +619,10 @@ source = "https://github.com/LynnColeArt/Frumpy"
 
 [package.fsml]
 source = "https://github.com/sebastian-mutz/fsml"
+
+[package.FSPARSE]
+source = "https://github.com/jalvesz/FSPARSE"
+license = "MIT"
 
 [package.fstats]
 source = "https://github.com/jchristopherson/fstats"
@@ -616,6 +665,10 @@ source = "https://github.com/coriollis-nico/gila-integrator"
 
 [package.GLISS]
 source = "https://github.com/itpplasma/GLISS"
+
+[package.gmsh-fpm]
+source = "https://github.com/gnikit/gmsh-fpm"
+license = "GPL-2.0-or-later"
 
 [package.graphstruc]
 source = "https://github.com/nedtaylor/graphstruc"
@@ -668,6 +721,10 @@ source = "https://github.com/acbbullock/IO-Fortran-Library"
 [package.iso_varying_string]
 source = "https://github.com/everythingfunctional/iso_varying_string"
 
+[package.IterativeRotationsAssignments]
+source = "https://github.com/mammasmias/IterativeRotationsAssignments"
+license = "Apache-2.0 OR GPL-3.0-or-later"
+
 [package.jacchia-roberts-fortran]
 source = "https://github.com/jacobwilliams/jacchia-roberts-fortran"
 
@@ -679,6 +736,11 @@ source = "https://github.com/jacobwilliams/json-fortran"
 
 [package.json-fortran-benchmarks]
 source = "https://github.com/jacobwilliams/json-fortran-benchmarks"
+
+[package.julienne]
+source = "https://github.com/BerkeleyLab/julienne"
+description = "A Fortran 2023 correctness-checking framework supporting expressive idioms for writing assertions and tests"
+license = "BSD-3-Clause-LBNL"
 
 [package.kronrod]
 source = "https://github.com/jacobwilliams/kronrod"
@@ -715,6 +777,10 @@ source = "https://github.com/itpplasma/libneo"
 
 [package.libpq-fortran]
 source = "https://github.com/ShinobuAmasaki/libpq-fortran"
+
+[package.libsparse]
+source = "https://github.com/jvdp1/libsparse"
+license = "MIT"
 
 [package.libxs]
 source = "https://github.com/hfp/libxs"
@@ -896,6 +962,14 @@ source = "https://github.com/urbanjost/M_uuid"
 [package.maptran3d]
 source = "https://github.com/geospace-code/maptran3d"
 
+[package.mastermind]
+source = "https://github.com/fortran-gaming/mastermind"
+license = "Apache-2.0"
+
+[package.matcha]
+source = "https://github.com/BerkeleyLab/matcha"
+license = "BSD-3-Clause-LBNL"
+
 [package.mctc-lib]
 source = "https://github.com/grimme-lab/mctc-lib"
 
@@ -910,6 +984,10 @@ source = "https://github.com/14NGiestas/mfi"
 
 [package.minnorm_test]
 source = "https://github.com/jacobwilliams/minnorm_test"
+
+[package.minpack]
+source = "https://github.com/fortran-lang/minpack"
+license = "MIT AND Minpack"
 
 [package.ModMet]
 source = "https://github.com/rivm-syso/ModMet"
@@ -980,8 +1058,16 @@ source = "https://github.com/davidpfister/odbc.f"
 [package.odepack]
 source = "https://github.com/jacobwilliams/odepack"
 
+[package.odepack-Nicholaswogan]
+source = "https://github.com/Nicholaswogan/odepack"
+license = "Public Domain"
+
 [package.odrpack95]
 source = "https://github.com/HugoMVale/odrpack95"
+
+[package.ogpf]
+source = "https://github.com/kookma/ogpf"
+license = "MIT"
 
 [package.oolong]
 source = "https://github.com/EdHone/oolong"
@@ -1052,6 +1138,11 @@ source = "https://github.com/urbanjost/prep"
 [package.psqp]
 source = "https://github.com/jacobwilliams/psqp"
 
+[package.PyDislocDyn]
+source = "https://github.com/dblaschke-LANL/PyDislocDyn"
+description = "Python programs for dislocation dynamics in metals of various crystal symmetries in the continuum limit, with Fortran subroutines"
+license = "BSD-3-Clause"
+
 [package.pyplot-fortran]
 source = "https://github.com/jacobwilliams/pyplot-fortran"
 
@@ -1102,6 +1193,10 @@ source = "https://github.com/grimme-lab/rmsd-tool"
 
 [package.rndgen-fortran]
 source = "https://github.com/wcota/rndgen-fortran"
+
+[package.rngff]
+source = "https://github.com/Archaeologic-Inc/rngff"
+license = "MIT"
 
 [package.rocket-science]
 source = "https://github.com/sourceryinstitute/rocket-science"
@@ -1224,6 +1319,10 @@ source = "https://github.com/jacobwilliams/stringsort"
 
 [package."subprocess.f"]
 source = "https://github.com/davidpfister/subprocess.f"
+
+[package.superlu]
+source = "https://github.com/xiaoyeli/superlu"
+license = "BSD-3-Clause-LBNL"
 
 [package.syntran]
 source = "https://github.com/JeffIrwin/syntran"

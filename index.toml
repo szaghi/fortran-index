@@ -83,6 +83,12 @@ description = "A Fortran library for computing the arithmetic-geometric mean (AG
 license = "mit"
 provides = ["arithmetic_geometric_mean_fortran"]
 
+[package.assert]
+source = "https://github.com/BerkeleyLab/assert"
+description = "Assert"
+license = "BSD-3-Clause-LBNL"
+provides = ["assert_m"]
+
 [package.astro-fortran]
 source = "https://github.com/jacobwilliams/astro-fortran"
 description = "A refactoring of the IAU SOFA library to modern Fortran standards"
@@ -369,6 +375,12 @@ description = "In-process measurement of energy, power, CPU time and I/O for For
 license = "MIT"
 provides = ["fortran_energy_mod"]
 
+[package.Enzyme]
+source = "https://github.com/EnzymeAD/Enzyme"
+description = "Fortran bindings for Enzyme (the enzyme module)"
+license = "Apache-2.0 WITH LLVM-exception"
+provides = ["enzyme", "enzyme_function_hooks"]
+
 [package.ephemeris]
 source = "https://github.com/certik/ephemeris"
 description = "Pure Fortran celestial mechanics library"
@@ -386,6 +398,12 @@ source = "https://github.com/szaghi/FACE"
 description = "Fortran Ansi Colors (and Styles) Environment"
 license = "multi-licensing system: GPLv3, BSD2, BSD3, and MIT"
 provides = ["face"]
+
+[package.fast_math]
+source = "https://github.com/jalvesz/fast_math"
+description = "A collection of functions for fast number crunching using Fortran."
+license = "MIT"
+provides = ["fast_dotp", "fast_erf", "fast_log", "fast_math", "fast_rsqrt", "fast_sum", "fast_tanh", "fast_trigo"]
 
 [package.fastGPT]
 source = "https://github.com/certik/fastGPT"
@@ -451,6 +469,11 @@ description = "Fortran implementations of Ewald summation for charge-neutral per
 license = "MIT"
 provides = ["ewald_alpha_search", "ewald_cell_list", "ewald_constants", "ewald_direct_2d", "ewald_direct_3d", "ewald_fft_2d", "ewald_fft_2d_fourier", "ewald_fft_2d_parameters", "ewald_fft_2d_real", "ewald_fft_3d", "ewald_fft_3d_fourier", "ewald_fft_3d_parameters", "ewald_fft_3d_real", "ewald_geometry", "ewald_lambert_w", "ewald_self", "ewald_slab_kernel", "ewald_truncation", "ewald_validation", "fft_backend", "nfft"]
 
+[package.fftpack]
+source = "https://github.com/fortran-lang/fftpack"
+description = "A package of fortran subprograms for the fast fourier transform of periodic and other symmetric sequences"
+license = "MIT"
+
 [package.FGIF]
 source = "https://github.com/jacobwilliams/FGIF"
 description = "Create Animated GIFs with Fortran"
@@ -480,6 +503,12 @@ source = "https://github.com/LKedward/fhash"
 description = "Implements a hash table type with support for generic keys and values."
 license = "MIT"
 provides = ["fhash", "fhash_data_container", "fhash_fnv", "fhash_key_base", "fhash_key_char", "fhash_key_int32", "fhash_key_int32_1d", "fhash_key_int64", "fhash_key_int64_1d", "fhash_sll", "fhash_tbl", "fhash_tbl_iter"]
+
+[package.fiats]
+source = "https://github.com/BerkeleyLab/fiats"
+description = "Fiats: Functional inference and training for surrogates"
+license = "BSD-3-Clause-LBNL"
+provides = ["activation_m", "double_precision_file_m", "double_precision_string_m", "fiats_m", "hyperparameters_m", "input_output_pair_m", "kind_parameters_m", "layer_m", "metadata_m", "mini_batch_m", "network_configuration_m", "neural_network_m", "neuron_m", "tensor_m", "tensor_map_m", "tensor_names_m", "trainable_network_m", "training_configuration_m", "training_data_files_m"]
 
 [package.fig]
 source = "https://github.com/AnonMiraj/fig"
@@ -682,6 +711,12 @@ provides = ["forlab"]
 source = "https://github.com/gha3mi/forlapack"
 description = "ForLAPACK simplifies the compilation of the latest LAPACK library using the Fortran Package Manager (fpm)."
 license = "BSD-3"
+
+[package.formal]
+source = "https://github.com/BerkeleyLab/formal"
+description = "Formal: Formulaic mimetic abstraction language"
+license = "BSD-3-Clause-LBNL"
+provides = ["differential_operators_1d_m", "formal_m", "interpolator_1d_m", "tensors_1d_m", "tensors_2d_m", "tensors_3d_m"]
 
 [package.formatmul]
 source = "https://github.com/gha3mi/formatmul"
@@ -1056,6 +1091,24 @@ description = "A command-line file explorer written in modern Fortran with fzf i
 license = "MIT"
 provides = ["filesystem_ops", "git_ops", "preview_ops", "terminal_control", "ui_display", "version_info"]
 
+[package.fortuno-fpm-coarray]
+source = "https://github.com/fortuno-repos/fortuno-fpm-coarray"
+description = "Fortuno – flextensible unit testing framework for Fortran"
+license = "BSD-2-Clause-Patent"
+provides = ["fortuno", "fortuno_argumentparser", "fortuno_basetypes", "fortuno_chartypes", "fortuno_checkers", "fortuno_checkers_helpers", "fortuno_checkers_int32", "fortuno_checkers_int64", "fortuno_checkers_real32", "fortuno_checkers_real64", "fortuno_checkfuncs", "fortuno_cmdapp", "fortuno_coarray", "fortuno_coarray_coabasetypes", "fortuno_coarray_coacmdapp", "fortuno_coarray_coaconlogger", "fortuno_coarray_coacontext", "fortuno_coarray_coadriver", "fortuno_coarray_coaenv", "fortuno_coarray_coapurecase", "fortuno_coarray_coapuresuite", "fortuno_coarray_coatestinfo", "fortuno_consolelogger", "fortuno_env", "fortuno_testcontext", "fortuno_testdriver", "fortuno_testinfo", "fortuno_testlogger", "fortuno_utils", "fortuno_version"]
+
+[package.fortuno-fpm-mpi]
+source = "https://github.com/fortuno-repos/fortuno-fpm-mpi"
+description = "Fortuno – flextensible unit testing framework for Fortran"
+license = "BSD-2-Clause-Patent"
+provides = ["fortuno", "fortuno_argumentparser", "fortuno_basetypes", "fortuno_chartypes", "fortuno_checkers", "fortuno_checkers_helpers", "fortuno_checkers_int32", "fortuno_checkers_int64", "fortuno_checkers_real32", "fortuno_checkers_real64", "fortuno_checkfuncs", "fortuno_cmdapp", "fortuno_consolelogger", "fortuno_env", "fortuno_mpi", "fortuno_mpi_mpibasetypes", "fortuno_mpi_mpicase", "fortuno_mpi_mpicmdapp", "fortuno_mpi_mpiconlogger", "fortuno_mpi_mpicontext", "fortuno_mpi_mpidriver", "fortuno_mpi_mpienv", "fortuno_mpi_mpiglobalctx", "fortuno_mpi_mpisuite", "fortuno_mpi_mpitestinfo", "fortuno_testcontext", "fortuno_testdriver", "fortuno_testinfo", "fortuno_testlogger", "fortuno_utils", "fortuno_version"]
+
+[package.fortuno-fpm-serial]
+source = "https://github.com/fortuno-repos/fortuno-fpm-serial"
+description = "Fortuno – flextensible unit testing framework for Fortran"
+license = "BSD-2-Clause-Patent"
+provides = ["fortuno", "fortuno_argumentparser", "fortuno_basetypes", "fortuno_chartypes", "fortuno_checkers", "fortuno_checkers_helpers", "fortuno_checkers_int32", "fortuno_checkers_int64", "fortuno_checkers_real32", "fortuno_checkers_real64", "fortuno_checkfuncs", "fortuno_cmdapp", "fortuno_consolelogger", "fortuno_env", "fortuno_serial", "fortuno_serial_serialbasetypes", "fortuno_serial_serialcase", "fortuno_serial_serialcmdapp", "fortuno_serial_serialconlogger", "fortuno_serial_serialcontext", "fortuno_serial_serialdriver", "fortuno_serial_serialglobalctx", "fortuno_serial_serialsuite", "fortuno_testcontext", "fortuno_testdriver", "fortuno_testinfo", "fortuno_testlogger", "fortuno_utils", "fortuno_version"]
+
 [package.FOSSIL]
 source = "https://github.com/szaghi/FOSSIL"
 description = "FOrtran Stereo (si) Litography parser"
@@ -1068,6 +1121,12 @@ description = "Fortran XML parser for poor people"
 license = "Multiple licenses"
 provides = ["foxy", "foxy_xml_entities", "foxy_xml_file", "foxy_xml_index", "foxy_xml_tag", "foxy_xml_tokenizer", "foxy_xml_tree", "foxy_xml_values", "foxy_xml_writer"]
 
+[package.fplot]
+source = "https://github.com/jchristopherson/fplot"
+description = "A Fortran library providing a convenient interface for plotting with Gnuplot."
+license = "MIT"
+provides = ["delaunay", "fplot_arrow", "fplot_colormap", "fplot_colors", "fplot_constants", "fplot_core", "fplot_core_routines", "fplot_delaunay_tri_surface", "fplot_errors", "fplot_filled_plot_data", "fplot_label", "fplot_latex_terminal", "fplot_legend", "fplot_multiplot", "fplot_pdf_terminal", "fplot_plot", "fplot_plot_2d", "fplot_plot_3d", "fplot_plot_axis", "fplot_plot_bar", "fplot_plot_data", "fplot_plot_data_2d", "fplot_plot_data_3d", "fplot_plot_data_bar", "fplot_plot_data_box_whisker", "fplot_plot_data_error_bars", "fplot_plot_data_function", "fplot_plot_data_histogram", "fplot_plot_data_tri_2d", "fplot_plot_object", "fplot_plot_polar", "fplot_png_terminal", "fplot_qt_terminal", "fplot_simplify", "fplot_stats_plots", "fplot_surface_plot", "fplot_surface_plot_data", "fplot_svg_terminal", "fplot_terminal", "fplot_tri_surface_plot_data", "fplot_triangulations_delaunay_2d", "fplot_vector_field_plot_data", "fplot_windows_terminal", "fplot_wxt_terminal"]
+
 [package.fplotlib]
 source = "https://github.com/fortran-lang/fplotlib"
 description = "Pure Fortran pylab-style plotting: SVG, PNG, PDF, EPS and GIF"
@@ -1079,6 +1138,12 @@ source = "https://github.com/fortran-lang/fpm"
 description = "Fortran Package Manager"
 license = "MIT"
 provides = ["fpm", "fpm_backend", "fpm_backend_console", "fpm_backend_output", "fpm_cmd_export", "fpm_cmd_install", "fpm_cmd_new", "fpm_cmd_publish", "fpm_cmd_update", "fpm_command_line", "fpm_compile_commands", "fpm_compiler", "fpm_dependency", "fpm_downloader", "fpm_environment", "fpm_error", "fpm_filesystem", "fpm_git", "fpm_installer", "fpm_manifest", "fpm_manifest_build", "fpm_manifest_dependency", "fpm_manifest_example", "fpm_manifest_executable", "fpm_manifest_feature", "fpm_manifest_feature_collection", "fpm_manifest_fortran", "fpm_manifest_install", "fpm_manifest_library", "fpm_manifest_metapackages", "fpm_manifest_package", "fpm_manifest_platform", "fpm_manifest_preprocess", "fpm_manifest_profile", "fpm_manifest_test", "fpm_meta", "fpm_meta_base", "fpm_meta_blas", "fpm_meta_hdf5", "fpm_meta_minpack", "fpm_meta_mpi", "fpm_meta_netcdf", "fpm_meta_openmp", "fpm_meta_stdlib", "fpm_meta_util", "fpm_model", "fpm_os", "fpm_pkg_config", "fpm_release", "fpm_settings", "fpm_source_parsing", "fpm_sources", "fpm_strings", "fpm_targets", "fpm_toml", "fpm_versioning"]
+
+[package.fpm-find]
+source = "https://github.com/BerkeleyLab/fpm-find"
+description = "A Fortran Package Manager plugin for searching fortran-lang's package index"
+license = "MIT"
+provides = ["fpm_find_m", "indexed_package_m", "package_index_m"]
 
 [package.fpm-gdb]
 source = "https://github.com/urbanjost/fpm-gdb"
@@ -1124,6 +1189,12 @@ source = "https://github.com/sebastian-mutz/fsml"
 description = "Fortran Statistics and Machine Learning Library"
 license = "MIT license"
 provides = ["fsml", "fsml_con", "fsml_dat", "fsml_dst", "fsml_err", "fsml_ini", "fsml_lin", "fsml_nlp", "fsml_sts", "fsml_tst", "fsml_typ", "fsml_utl"]
+
+[package.FSPARSE]
+source = "https://github.com/jalvesz/FSPARSE"
+description = "FSPARSE: Fortran Sparse Gallery library"
+license = "MIT"
+provides = ["fsparse", "fsparse_cells2sparse", "fsparse_constants", "fsparse_conversions", "fsparse_krylov", "fsparse_matrix_gallery", "fsparse_matvec", "fsparse_sort"]
 
 [package.fstats]
 source = "https://github.com/jchristopherson/fstats"
@@ -1207,6 +1278,12 @@ source = "https://github.com/itpplasma/GLISS"
 description = "GLISS (Global Linear Ideal Stability Solver) computes the linear ideal-MHD"
 license = "MIT"
 provides = ["axis_regular_harmonic_spline", "axisymmetric_spectrum", "block_tridiagonal", "cartesian_harmonic_spline", "cartesian_primitive_geometry", "cas3d_coefficient_mass", "cas3d_phase_envelope_transform", "compatible_block_storage", "compatible_compressible_stiffness_assembly", "compatible_family_point_assembly", "compatible_operator_trace_types", "compatible_physical_mass_assembly", "compatible_problem_assembly_support", "compatible_radial_quadrature", "compatible_three_component_problem", "compatible_two_component_problem", "compressible_stiffness_validation", "dense_spectrum_support", "dynamic_family_layout", "export_surface_geometry", "field_periodic_cartesian", "field_profile_identities", "fixed_boundary_eigen_bracket", "fixed_boundary_energy", "fixed_boundary_solver_controls", "fixed_boundary_spectrum", "fourier_phase_kind", "gliss_axisymmetric_capi", "gliss_c_abi_support", "gliss_c_contexts", "gliss_capi", "gliss_energy_capi", "gliss_equilibrium_io_capi", "gliss_full_spectrum_capi", "gliss_marginality_capi", "gliss_solver_controls_capi", "gliss_spectrum_capi", "gliss_terpsichore_capi", "gvec_cas3d_adapter", "gvec_cas3d_integrals", "gvec_cas3d_netcdf", "gvec_cas3d_reader", "gvec_cas3d_reconstruction", "gvec_cas3d_types", "gvec_cas3d_writer", "helical_cylinder_limit", "local_mode_model", "marginality_spectrum", "mercier_diagnostic", "mode_topology", "netcdf_c_api", "netcdf_c_bindings", "newcomb_limit", "nonuniform_derivative", "perpendicular_kinetic_kernel", "phase_assembly_policy", "phase_factor_topology", "physical_constants", "physical_mass_kernel", "primitive_equilibrium_spline", "primitive_geometry_grid", "primitive_kernel_geometry", "radial_bspline_basis", "radial_cubic_spline", "radial_feec_complex", "stable_reduction", "starwall_cylinder_limit", "starwall_fourier_coupling", "starwall_ideal_vacuum", "starwall_mesh_geometry", "symmetric_eigensolver", "symmetric_pivot_inertia", "terpsichore_eigen_diagnostics", "terpsichore_fixed_boundary_spectrum", "terpsichore_matrix_fixture", "terpsichore_model_policy", "terpsichore_noninteracting_coefficients", "terpsichore_noninteracting_stiffness", "terpsichore_normalization", "terpsichore_pair_average", "terpsichore_pseudoplasma_coupling", "terpsichore_pseudoplasma_fixture", "terpsichore_pseudoplasma_spectrum", "terpsichore_pseudoplasma_stiffness", "terpsichore_reduced_layout", "terpsichore_reduced_mass", "terpsichore_reduced_mass_adapter", "terpsichore_reduced_mass_family_assembly", "terpsichore_solution_fixture", "terpsichore_topology", "three_component_kernel", "trial_space_topology", "two_component_kernel", "vacuum_schur", "variable_block_tridiagonal", "variable_generalized_equilibration", "variable_generalized_solver", "variable_spectrum_analysis"]
+
+[package.gmsh-fpm]
+source = "https://github.com/gnikit/gmsh-fpm"
+description = "Fortran API for the Gmsh mesh library"
+license = "GPL-2.0-or-later"
+provides = ["gmsh"]
 
 [package.graphstruc]
 source = "https://github.com/nedtaylor/graphstruc"
@@ -1307,6 +1384,12 @@ description = "iso_varying_string"
 license = "MIT"
 provides = ["iso_varying_string"]
 
+[package.IterativeRotationsAssignments]
+source = "https://github.com/mammasmias/IterativeRotationsAssignments"
+description = "This is the repository of shape matching algorithm"
+license = "Apache-2.0 OR GPL-3.0-or-later"
+provides = ["err_module", "ira_pbc", "sofi_tools", "sorting_module"]
+
 [package.jacchia-roberts-fortran]
 source = "https://github.com/jacobwilliams/jacchia-roberts-fortran"
 description = "A modern Fortran implementation of the Jacchia-Roberts atmospheric density model."
@@ -1329,6 +1412,12 @@ provides = ["json_file_module", "json_kinds", "json_module", "json_parameters", 
 source = "https://github.com/jacobwilliams/json-fortran-benchmarks"
 description = "Benchmarks for JSON Fortran parsers. Also comparison to Python."
 license = "BSD-3"
+
+[package.julienne]
+source = "https://github.com/BerkeleyLab/julienne"
+description = "A Fortran 2023 correctness-checking framework supporting expressive idioms for writing assertions and tests"
+license = "BSD-3-Clause-LBNL"
+provides = ["julienne_assert_m", "julienne_bin_m", "julienne_command_line_m", "julienne_file_m", "julienne_formats_m", "julienne_github_ci_m", "julienne_m", "julienne_multi_image_m", "julienne_stop_and_print_m", "julienne_string_m", "julienne_test_description_m", "julienne_test_diagnosis_m", "julienne_test_fixture_m", "julienne_test_harness_m", "julienne_test_m", "julienne_test_result_m", "julienne_test_suite_m"]
 
 [package.kronrod]
 source = "https://github.com/jacobwilliams/kronrod"
@@ -1397,6 +1486,12 @@ source = "https://github.com/ShinobuAmasaki/libpq-fortran"
 description = "Libpq-Fortran is a Modern Fortran interface to the PostgreSQL libpq C Library."
 license = "MIT License"
 provides = ["character_operations_m", "enumerators_t", "error_message_fields_m", "fe_auth_m", "fe_connect_m", "fe_exec_m", "fe_misc_m", "libpq", "pgnotify_t", "pqconninfooption_t"]
+
+[package.libsparse]
+source = "https://github.com/jvdp1/libsparse"
+description = "The Fortran 2003 library libsparse is a library that provides objects to create and handle rectangular and square sparse matrices using different formats:"
+license = "MIT"
+provides = ["modcommon", "modmetis", "modrandom", "modspainv", "modsparse", "modsparse_hash", "modsparse_helpers", "modsparse_inv", "modsparse_inv_int", "modsparse_mkl", "modvariablepardiso"]
 
 [package.libxs]
 source = "https://github.com/hfp/libxs"
@@ -1754,6 +1849,18 @@ description = "Modern Fortran 3D coordinate conversions for geospace ecef enu ec
 license = "BSD"
 provides = ["maptran", "vallado"]
 
+[package.mastermind]
+source = "https://github.com/fortran-gaming/mastermind"
+description = "This is the classic"
+license = "Apache-2.0"
+provides = ["mm_game", "random", "utils"]
+
+[package.matcha]
+source = "https://github.com/BerkeleyLab/matcha"
+description = "Matcha"
+license = "BSD-3-Clause-LBNL"
+provides = ["distribution_m", "input_m", "matcha_m", "output_m", "subdomain_m", "t_cell_collection_m"]
+
 [package.mctc-lib]
 source = "https://github.com/grimme-lab/mctc-lib"
 description = "Modular computation tool chain library"
@@ -1783,6 +1890,12 @@ source = "https://github.com/jacobwilliams/minnorm_test"
 description = "Example large m x n matrix (m < n) for testing minimum norm linear solvers"
 license = "BSD-3"
 provides = ["minnorm_module"]
+
+[package.minpack]
+source = "https://github.com/fortran-lang/minpack"
+description = "Minpack includes software for solving nonlinear equations and nonlinear least squares problems"
+license = "MIT AND Minpack"
+provides = ["minpack_capi", "minpack_module"]
 
 [package.ModMet]
 source = "https://github.com/rivm-syso/ModMet"
@@ -1920,11 +2033,23 @@ description = "differential equation solver"
 license = "Public Domain"
 provides = ["m_odepack"]
 
+[package.odepack-Nicholaswogan]
+source = "https://github.com/Nicholaswogan/odepack"
+description = "Modern Fortran interface to part of ODEPACK"
+license = "Public Domain"
+provides = ["odepack_common", "odepack_interface", "odepack_mod"]
+
 [package.odrpack95]
 source = "https://github.com/HugoMVale/odrpack95"
 description = "A modernized Fortran package for weighted orthogonal distance regression (ODR)."
 license = "MIT"
 provides = ["blas_interfaces", "linpack", "odrpack", "odrpack_capi", "odrpack_core", "odrpack_kinds", "odrpack_reports"]
+
+[package.ogpf]
+source = "https://github.com/kookma/ogpf"
+description = "Object Based Interface to GnuPlot from Fortran"
+license = "MIT"
+provides = ["ogpf"]
 
 [package.oolong]
 source = "https://github.com/EdHone/oolong"
@@ -2063,6 +2188,12 @@ description = "Modern Fortran edition of PSQP"
 license = "LGPL"
 provides = ["psqp_kind_module", "psqp_matrix_module", "psqp_module"]
 
+[package.PyDislocDyn]
+source = "https://github.com/dblaschke-LANL/PyDislocDyn"
+description = "Python programs for dislocation dynamics in metals of various crystal symmetries in the continuum limit, with Fortran subroutines"
+license = "BSD-3-Clause"
+provides = ["dislocdyn_crystals", "dislocdyn_dislocations", "dislocdyn_elasticconstants", "dislocdyn_opt", "dislocdyn_parameters", "dislocdyn_phononwind", "dislocdyn_phononwind_subroutines", "dislocdyn_readinputfiles", "dislocdyn_subroutines", "dislocdyn_utilities"]
+
 [package.pyplot-fortran]
 source = "https://github.com/jacobwilliams/pyplot-fortran"
 description = "A simple module for generating plots from Fortran using Python's matplotlib.pyplot."
@@ -2164,6 +2295,12 @@ source = "https://github.com/wcota/rndgen-fortran"
 description = "The Fortran module RNDGEN implements the KISS (Keep It Simple Stupid) random number generator as an object, facilitating the usage of multiple and independent g"
 license = "GNU General Public License v3.0"
 provides = ["rndgen_mod", "rndgenpl_mod"]
+
+[package.rngff]
+source = "https://github.com/Archaeologic-Inc/rngff"
+description = "This project consists of a unified abstract interface for an Object-Oriented"
+license = "MIT"
+provides = ["rngff", "rngff_linear_congruential_m", "rngff_rng_m", "rngff_split_mix_m", "rngff_splitable_rng_m"]
 
 [package.rocket-science]
 source = "https://github.com/sourceryinstitute/rocket-science"
@@ -2399,6 +2536,11 @@ source = "https://github.com/davidpfister/subprocess.f"
 description = "experimental repo for subprocess spawning"
 license = "MIT"
 provides = ["subprocess", "subprocess_handler", "subprocess_sleep", "subprocess_string"]
+
+[package.superlu]
+source = "https://github.com/xiaoyeli/superlu"
+description = "SuperLU (Version 7.0.1)"
+license = "BSD-3-Clause-LBNL"
 
 [package.syntran]
 source = "https://github.com/JeffIrwin/syntran"
