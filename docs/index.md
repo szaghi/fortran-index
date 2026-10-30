@@ -69,7 +69,7 @@ export PKG_CONFIG_PATH=$(fobis pkg path M_strings --pkgconfig)
 gfortran main.f90 $(pkg-config --cflags --libs M_strings)
 ```
 
-Requires FoBiS.py 3.11.1 or newer (`pip install --upgrade FoBiS.py`).
+Requires FoBiS.py 3.14.0 or newer (`pip install --upgrade FoBiS.py`).
 
 ## How it fits together
 

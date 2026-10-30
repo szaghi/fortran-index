@@ -13,8 +13,8 @@ clone of its newest version) and fills the description, licence and provided mod
 fobis index build seeds.toml -o index.toml --force
 ```
 
-Rebuilding needs FoBiS.py 3.11.2 or newer: older versions write package names holding a dot (`odbc.f`) in a form
-they cannot read back, and miss the modules of fypp sources (stdlib).
+Rebuilding needs FoBiS.py 3.14.0 or newer: older versions write package names holding a dot (`odbc.f`) in a form
+they cannot read back, miss the modules of fypp sources (stdlib), and do not fill `builds`.
 
 Fields written by hand in the seeds win over what the sources say. A source that cannot be read keeps its seed entry
 as written, with a warning.

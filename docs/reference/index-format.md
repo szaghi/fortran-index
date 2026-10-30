@@ -40,8 +40,9 @@ recipe      = "recipes/json-fortran.toml"
 | `description` | no | one line, shown by `fobis search` |
 | `license` | no | as the package declares it (SPDX when possible) |
 | `keywords` | no | matched by `fobis search` |
-| `mirrors` | no | other URLs of the same content (informational: add one to a project's spec with `:: mirror=URL`) |
+| `mirrors` | no | other URLs of the same content: `fobis add` copies them into a fobos as `:: mirror=URL[,URL]` |
 | `provides` | no | the modules the package's library defines (`fobis search --module`) |
+| `builds` | no | the build systems of the newest version: `fobis`, `fpm`, `cmake`, `make` (`fobis search --build fpm`) |
 | `recipe` | no | a recipe file, relative to the index, for a package without fobos or fpm.toml |
 
 ## What is not there

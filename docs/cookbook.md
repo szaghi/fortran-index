@@ -19,6 +19,29 @@ fobis add --module m_cli2
 The [modules catalogue](/packages/modules) gives the same answer in the browser. A module provided by several
 packages (flagged ⚠️) means one of them bundles the other's sources: pick one, they cannot be linked together.
 
+## Use a package in an fpm project
+
+In a project with an `fpm.toml` (and no fobos), `fobis add` writes the dependency into `fpm.toml`, and fpm fetches and
+builds it:
+
+```bash
+fobis search --build fpm json
+fobis add json-fortran
+fpm build
+```
+
+```toml
+[dependencies]
+# added by fobis add from index szaghi
+json-fortran = { git = "https://github.com/jacobwilliams/json-fortran", tag = "9.3.1" }
+```
+
+- `fobis search --build fpm` lists only the packages fpm can build (they have an `fpm.toml`); `add` refuses the
+  others.
+- fpm takes no version range: the newest tag is pinned. `fobis add NAME --force` moves to a newer one, `--tag`
+  chooses another, `fobis remove NAME` takes it out.
+- The dependency is named after the package's own `fpm.toml`, as fpm requires.
+
 ## Pin a version
 
 ```bash
