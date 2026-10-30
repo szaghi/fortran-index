@@ -16,6 +16,7 @@ provides = ["constants", "gridset_mod", "iarray", "inttau2", "optical_properties
 
 [package.AD_dnSVM]
 source = "https://github.com/lauvergn/AD_dnSVM"
+description = "AD_dnSVM is a Fortran Automatic Differentiation library using forward mode for scalars, vectors and matrices."
 license = "MIT"
 provides = ["addnsvm_dnfunc_m", "addnsvm_dnmat_m", "addnsvm_dnpoly_m", "addnsvm_dns_m", "addnsvm_dns_op_m", "addnsvm_dnvec_m", "addnsvm_m"]
 
@@ -63,7 +64,6 @@ provides = ["aoc_utilities"]
 [package.arclength]
 source = "https://github.com/jacobwilliams/arclength"
 description = "Nothing to see here."
-license = "license"
 
 [package.argparse-f]
 source = "https://github.com/0382/argparse-f"
@@ -104,7 +104,7 @@ provides = ["athena", "athena__accuracy", "athena__activation", "athena__activat
 [package.autodiff]
 source = "https://github.com/sgeard/autodiff"
 description = "auto differentiation for up to 4th derivatives"
-license = "license"
+license = "MIT"
 provides = ["avd"]
 
 [package.BEACH]
@@ -176,7 +176,7 @@ provides = ["carlson_elliptic_module"]
 [package.chem_rate_fit]
 source = "https://github.com/acooksy/chem_rate_fit"
 description = "chem_rate_fit"
-license = "license"
+license = "GPL-3.0"
 provides = ["common_module", "matinv_module", "residuals_module", "uncert_module"]
 
 [package.ci-tester]
@@ -224,7 +224,7 @@ provides = ["dargdynamicarray_class", "ddynamicarray_class", "formatting", "iarg
 [package.coreutils]
 source = "https://github.com/nedtaylor/coreutils"
 description = "by Ned Thaddeus Taylor"
-license = "license"
+license = "MIT"
 provides = ["coreutils", "coreutils__array", "coreutils__const", "coreutils__error", "coreutils__file", "coreutils__geom", "coreutils__kind", "coreutils__linalg", "coreutils__string"]
 
 [package.CPCM-X]
@@ -278,7 +278,6 @@ provides = ["complex_bessel", "ddx", "ddx_cinterface", "ddx_constants", "ddx_cor
 [package.DepAC]
 source = "https://github.com/rivm-syso/DepAC"
 description = "DepAC (Deposition of Airborne Compounds) is a scientific Fortran library and toolkit for modeling atmospheric deposition processes. Developed by RIVM, DepAC pro"
-license = "LICENSE"
 provides = ["c_depac_core", "c_depac_param_types", "default_depac_config_rivm", "depac", "m_check_depac_input", "m_comp_point_ammonia", "m_comp_point_default", "m_comp_points", "m_depac_calc", "m_depac_error", "m_depac_factory", "m_depac_params", "m_gsoil_default", "m_gstom_default", "m_gstom_emberson", "m_gw_default", "m_gw_nh3_sutton", "m_gw_sai_scaling", "m_gw_so2", "m_helpers", "m_logger", "m_ra", "m_rb", "m_rc_eff", "m_rc_gsoil", "m_rc_gstom", "m_rc_gw", "m_rc_snow", "m_rc_special", "m_rc_special_default", "m_rc_tot", "m_rc_tot_fixed", "m_rc_tot_nitric_acid", "m_rc_tot_nitric_oxide", "m_rinc_default", "m_rinc_no_path", "m_rinc_no_resistance", "m_vd", "m_version", "t_depac_comp_point_param", "t_depac_component", "t_depac_component_core", "t_depac_config_core", "t_depac_context", "t_depac_csoil_param", "t_depac_error_core", "t_depac_gsoil_param", "t_depac_gstom_param", "t_depac_gw_param", "t_depac_land_use", "t_depac_land_use_core", "t_depac_meteorology_core", "t_depac_output_core", "t_depac_rc_special_param", "t_depac_rinc_param", "t_depac_setup", "t_depac_state_core"]
 
 [package.dftd4]
@@ -349,7 +348,6 @@ provides = ["dynamics", "dynamics_beam_elements", "dynamics_c_api", "dynamics_c_
 [package.easy]
 source = "https://github.com/urbanjost/easy"
 description = "easy -  an example github fpm repository"
-license = "license"
 provides = ["easy", "easy__sample"]
 
 [package.ecx]
@@ -437,7 +435,7 @@ provides = ["application_m", "final_task_m", "image_m", "mailbox_m", "payload_m"
 [package.feq-parse]
 source = "https://github.com/FluidNumerics/feq-parse"
 description = "An equation parser class for Modern Fortran"
-license = "Other"
+license = "BSD-3-Clause"
 provides = ["feqparse", "feqparse_floatstacks", "feqparse_functions", "feqparse_tokenstack"]
 
 [package.ferror]
@@ -513,7 +511,7 @@ provides = ["activation_m", "double_precision_file_m", "double_precision_string_
 [package.fig]
 source = "https://github.com/AnonMiraj/fig"
 description = "FIG is a Fortran library designed to offer intuitive vector graphics capabilities."
-license = "license"
+license = "MIT"
 provides = ["cairo_extra", "fig", "fig_bitmap", "fig_cairo", "fig_cairo_arc", "fig_cairo_circle", "fig_cairo_ellipse", "fig_cairo_line", "fig_cairo_path", "fig_cairo_poly", "fig_cairo_rect", "fig_cairo_text", "fig_cairo_triangle", "fig_cairo_utils", "fig_canvas", "fig_config", "fig_drawing", "fig_path", "fig_rgb", "fig_rgb_color_constants", "fig_shapes", "fig_svg", "fig_test", "fig_types"]
 
 [package.finbound]
@@ -583,7 +581,7 @@ provides = ["flow", "flow_compressible_transformations", "flow_conservative_comp
 [package.fmetis]
 source = "https://github.com/ivan-pi/fmetis"
 description = "A modern Fortran interface to the METIS software package for partitioning unstructured graphs, partitioning meshes, and computing fill-reducing orderings of spa"
-license = "license"
+license = "Apache-2.0"
 provides = ["metis_interface", "metis_oo_interface"]
 
 [package.fmin]
@@ -641,7 +639,7 @@ provides = ["forcolormap", "forcolormap_cm_matplotlib", "forcolormap_cm_miscella
 [package.forcompile]
 source = "https://github.com/gha3mi/forcompile"
 description = "ForCompile: A Fortran library to access the Compiler Explorer API."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["forcompile"]
 
 [package.fordebug]
@@ -659,7 +657,7 @@ provides = ["fordiff"]
 [package.fordot]
 source = "https://github.com/gha3mi/fordot"
 description = "ForDot: A Fortran library that overloads the dot_product function to enable efficient dot product with/without coarray."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["external_interfaces_dot", "fordot", "fordot_opts"]
 
 [package.foreig]
@@ -698,7 +696,7 @@ provides = ["forcolor", "forimage", "forimage_parameters", "lut", "pnm"]
 [package.forinv]
 source = "https://github.com/gha3mi/forinv"
 description = "ForInv: A Fortran library for inverse and pseudo-inverse calculations."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["forinv"]
 
 [package.forlab]
@@ -721,7 +719,7 @@ provides = ["differential_operators_1d_m", "formal_m", "interpolator_1d_m", "ten
 [package.formatmul]
 source = "https://github.com/gha3mi/formatmul"
 description = "ForMatmul: A Fortran library that overloads the matmul function to enable efficient matrix multiplication with/without coarray."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["formatmul", "formatmul_benchmark", "formatmul_opts"]
 
 [package.formidi]
@@ -739,13 +737,13 @@ provides = ["api", "array", "biome_repo", "block_repo", "camera", "chunk_data", 
 [package.foropenai]
 source = "https://github.com/gha3mi/foropenai"
 description = "ForOpenAI: A community-maintained Fortran wrapper for the OpenAI API."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["foropenai", "foropenai_base", "foropenai_chatcompletion", "foropenai_imagegeneration", "foropenai_transcription", "foropenai_translation"]
 
 [package.forpca]
 source = "https://github.com/gha3mi/forpca"
 description = "ForPCA: A Fortran library for principal component analysis (PCA)."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["forpca"]
 
 [package.forplay]
@@ -769,7 +767,7 @@ provides = ["sudoku"]
 [package.forsvd]
 source = "https://github.com/gha3mi/forsvd"
 description = "ForSVD: A Fortran library for singular value decomposition (SVD) calculation, low-rank approximation, and image compression."
-license = "LICENSE"
+license = "BSD-3-Clause"
 provides = ["forsvd"]
 
 [package.forsynth]
@@ -1071,13 +1069,12 @@ provides = ["f90sockets", "tev_mod"]
 [package.fortranDF]
 source = "https://github.com/jaiken17/fortranDF"
 description = "fortranDF is a data frame library for use in modern Fortran programs."
-license = "license"
+license = "BSD-3-Clause"
 provides = ["df_column_class", "df_fortrandf", "df_precision", "df_types", "df_utils", "split_mod"]
 
 [package.fortranpack]
 source = "https://github.com/jacobwilliams/fortranpack"
 description = "fortranpack: A Modern Fortran Numerical & Scientific Programming Package"
-license = "license"
 provides = ["fortranpack"]
 
 [package.FortranPatterns]
@@ -1341,7 +1338,6 @@ provides = ["http", "http_client", "http_pair", "http_request", "http_response",
 [package.HWM14]
 source = "https://github.com/jacobwilliams/HWM14"
 description = "﻿Horizontal Wind Model 2014 (HWM14)"
-license = "?"
 provides = ["alf", "dwm", "gd2qdc", "hwm", "hwm14_module", "hwm14_utilities", "qwm"]
 
 [package.hyperSIS]
@@ -1427,7 +1423,7 @@ license = "LGPL"
 [package.KSROP]
 source = "https://github.com/hari251086/KSROP"
 description = "KS-regularized orbit propagator, TLE/SGP4-SDP4, gravity + drag + third-body force model"
-license = "license"
+license = "MIT"
 
 [package.KWN-deformation]
 source = "https://github.com/LightForm-group/KWN-deformation"
@@ -1655,7 +1651,6 @@ provides = ["m_hashkeys", "m_hashkeys__sha3"]
 [package.M_history]
 source = "https://github.com/urbanjost/M_history"
 description = "A Fortran subroutine called redo(3f) may be used to give a line-mode"
-license = "license"
 provides = ["m_history"]
 
 [package.M_intrinsics]
@@ -1733,7 +1728,6 @@ provides = ["m_ncurses", "ncurses_types"]
 [package.M_orderpack]
 source = "https://github.com/urbanjost/M_orderpack"
 description = "orderpack(3f) - general and specialized ranking and sorting routines"
-license = "license"
 provides = ["m_ctrper", "m_fndnth", "m_indmed", "m_indnth", "m_inspar", "m_inssor", "m_median", "m_mrgref", "m_mrgrnk", "m_mulcnt", "m_orderpack", "m_rapknr", "m_refpar", "m_refsor", "m_rinpar", "m_rnkpar", "m_uniinv", "m_unipar", "m_unirnk", "m_unista", "m_valmed", "m_valnth"]
 
 [package.M_overload]
@@ -1799,13 +1793,11 @@ provides = ["m_sort"]
 [package.M_starpac]
 source = "https://github.com/urbanjost/M_starpac"
 description = "library callable from fpm(Fortran Package Manager). *"
-license = "license"
 provides = ["m_starpac", "m_starpac_d", "m_starpac_g", "m_starpac_s"]
 
 [package.M_stopwatch]
 source = "https://github.com/urbanjost/M_stopwatch"
 description = "timing routines using stopwatches"
-license = "license"
 provides = ["m_stopwatch"]
 
 [package.M_strings]
@@ -1876,7 +1868,7 @@ provides = ["mt19937_64"]
 [package.metalquicha]
 source = "https://github.com/JorgeG94/metalquicha"
 description = "Yes, this is AI generated (the image) if you know an artist, please let me know."
-license = "license"
+license = "MIT"
 provides = ["mqc_aambs", "mqc_acknowledgements", "mqc_atomic_guess_common", "mqc_atomic_radii", "mqc_basis_normalization", "mqc_basis_utils", "mqc_bcast", "mqc_bcast_system", "mqc_bond_perception", "mqc_build_info", "mqc_calc_types", "mqc_calculation_defaults", "mqc_calculation_interface", "mqc_calculation_keywords", "mqc_capi_bond_orders", "mqc_capi_charges", "mqc_capi_export", "mqc_capi_fraglist", "mqc_capi_mayer", "mqc_capi_run", "mqc_capi_session", "mqc_capi_status", "mqc_capi_system", "mqc_cgto", "mqc_checkpoint", "mqc_ci", "mqc_ci_transform", "mqc_cli_parser", "mqc_combinatorics", "mqc_config_adapter", "mqc_config_types", "mqc_convergence_report", "mqc_crest_driver", "mqc_cuest_bridge", "mqc_cuest_iface", "mqc_czt_bridge", "mqc_davidson", "mqc_determinants", "mqc_dft_grid", "mqc_dft_partition", "mqc_dft_prune", "mqc_dft_radial", "mqc_dft_radial_data", "mqc_diis", "mqc_dispersion", "mqc_dispersion_apply", "mqc_dispersion_d4", "mqc_dispersion_names", "mqc_dlfind_bridge", "mqc_driver", "mqc_ecp", "mqc_ediis", "mqc_elements", "mqc_error", "mqc_fingerprint", "mqc_finite_differences", "mqc_fock_projector", "mqc_frag_utils", "mqc_fraglist", "mqc_fragment_capabilities", "mqc_fragment_lookup", "mqc_fragment_table_writer", "mqc_fragmentation_method", "mqc_geometry", "mqc_geometry_optimizer", "mqc_gmbe_fragment_distribution_scheme", "mqc_gmbe_utils", "mqc_group_batching", "mqc_group_shard_io", "mqc_hdf5_amplitudes", "mqc_hdf5_checkpoint", "mqc_interaction_bonding", "mqc_io_helpers", "mqc_json", "mqc_json_basis_reader", "mqc_json_config_reader", "mqc_json_ecp_reader", "mqc_json_output_types", "mqc_json_schema", "mqc_json_writer", "mqc_lebedev", "mqc_lebedev_data", "mqc_logo", "mqc_many_body_expansion", "mqc_math_utils", "mqc_mbe", "mqc_mbe_fragment_distribution_scheme", "mqc_mbe_io", "mqc_memory", "mqc_method_base", "mqc_method_config", "mqc_method_dft", "mqc_method_factory", "mqc_method_hf", "mqc_method_mcscf", "mqc_method_types", "mqc_method_xtb", "mqc_mpi_comms", "mqc_mpi_tags", "mqc_nuclear_repulsion", "mqc_optimization_output", "mqc_optimizer_types", "mqc_orbital_rotation", "mqc_ormas_ci", "mqc_ormas_space", "mqc_pcm_radii", "mqc_physical_constants", "mqc_physical_fragment", "mqc_population_analysis", "mqc_program_limits", "mqc_quao_rows", "mqc_rdm", "mqc_resources", "mqc_result_types", "mqc_scf_common", "mqc_scf_convergence", "mqc_scf_types", "mqc_semi_numerical_hessian", "mqc_session", "mqc_string_utils", "mqc_terco_bridge", "mqc_thermochemistry", "mqc_timing", "mqc_validate", "mqc_verbosity", "mqc_version", "mqc_vibrational_analysis", "mqc_work_queue", "mqc_xc_spec", "mqc_xyz_reader"]
 
 [package.mfi]
@@ -1900,7 +1892,6 @@ provides = ["minpack_capi", "minpack_module"]
 [package.ModMet]
 source = "https://github.com/rivm-syso/ModMet"
 description = "ModMet is a scientific Fortran library and toolkit for meteorological calculations used in atmospheric and environmental modeling workflows. Specifically, it is"
-license = "LICENCE"
 provides = ["m_modmet_cloud_fraction", "m_modmet_find_zero", "m_modmet_flxln2", "m_modmet_fpsim", "m_modmet_helpers", "m_modmet_lusthov", "m_modmet_obuk", "m_modmet_radiat", "m_modmet_sunhgh", "m_modmet_tst", "m_modnet_z0corr", "modmet", "modmet_c_bindings", "modmet_constants", "modmet_version"]
 
 [package.MOKIT]
@@ -1940,7 +1931,7 @@ provides = ["mpfuna", "mpfunb", "mpfunc", "mpfund", "mpfune", "mpfunf", "mpfung"
 [package.mpi-project-exploration]
 source = "https://github.com/MatthAlex/mpi-project-exploration"
 description = "A Modern Fortran MPI Cartesian grid library for 3D stencil boundary and halo updates. Built on mpi_f08 with clean encapsulation, and a test suite (WIP)."
-license = "LICENSE"
+license = "MIT"
 provides = ["boundary", "lib_mpi_enums", "lib_mpi_precision", "mpi_domain_types", "mpi_halo", "mpi_interface"]
 
 [package.mstore]
@@ -2119,7 +2110,7 @@ provides = ["penf", "penf_allocatable_memory", "penf_b_size", "penf_global_param
 [package.phanerotes]
 source = "https://github.com/free-variation/phanerotes"
 description = "Convolutional autoencoder with U-Net style skip connections for image reconstruction and latent space interpolation."
-license = "license"
+license = "MIT"
 provides = ["cnn_autoencoder", "cnn_core", "command", "image", "interpreter", "nn", "stb_bindings", "train"]
 
 [package.phonon-charge-pdf]
@@ -2239,7 +2230,7 @@ provides = ["quadpack", "quadpack_double", "quadpack_generic", "quadpack_quad", 
 [package.QuadProg]
 source = "https://github.com/loiseaujc/QuadProg"
 description = "Modern Fortran Edition of the quadprog solver"
-license = "license"
+license = "GPL-3.0"
 provides = ["quadprog", "quadprog_constants"]
 
 [package.quadrature-fortran]
@@ -2257,7 +2248,7 @@ provides = ["quaff", "quaff_acceleration_m", "quaff_amount_m", "quaff_amount_rat
 [package.qvSZP]
 source = "https://github.com/grimme-lab/qvSZP"
 description = "This tool sets up an ORCA calculation using the q-vSZP basis set (_J. Chem. Phys. 159_, 164108 (2023)). It is intended to work with ORCA version 5.0.4 and highe"
-license = "license"
+license = "GPL-3.0"
 provides = ["chargscfcts", "ioroutines", "miscellaneous", "write_output"]
 
 [package.radbelt]
@@ -2446,7 +2437,7 @@ provides = ["array_functions_interface", "co_object_interface", "command_line_in
 [package.spag_lapack]
 source = "https://github.com/urbanjost/spag_lapack"
 description = "Experimental LAPACK version"
-license = "license"
+license = "BSD-3-Clause"
 
 [package.specfun]
 source = "https://github.com/jacobwilliams/specfun"
@@ -2467,7 +2458,7 @@ description = "一份社区驱动的开源光滑粒子流体动力学（SPH）�
 [package.spicelib-modifications]
 source = "https://github.com/jacobwilliams/spicelib-modifications"
 description = "Building this example requires FPM (the Fortran Package Manager) v0.13.0 or later. It has only been tested with gfortran on a Mac."
-license = "license"
+license = "BSD-3-Clause"
 provides = ["spice_programmatic_interface", "spicelib_module"]
 
 [package.splpak]
@@ -2551,7 +2542,7 @@ provides = ["syntran", "syntran__app_m", "syntran__bool_m", "syntran__bytecode_m
 [package.TapTempo-Fortran]
 source = "https://github.com/vmagnin/TapTempo-Fortran"
 description = "A command line taptempo written in modern Fortran and under GNU GPLv3 license. Listen to a song and hit enter key with style and you'll get the corresponding nu"
-license = "license"
+license = "GPL-3.0"
 provides = ["taptempo"]
 
 [package.tblite]
