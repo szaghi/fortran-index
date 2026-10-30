@@ -90,4 +90,6 @@ the [tutorial](https://szaghi.github.io/fortran-index/tutorial/04-publish) and t
 fobis index build seeds.toml -o index.toml --force
 ```
 
-`index build` reads every source and fills descriptions, licences and modules, keeping the fields written by hand.
+`index build` reads every source and fills descriptions, licences and modules, keeping the fields written by hand in
+`seeds.toml`. It needs FoBiS.py 3.11.2 or newer: older versions write package names holding a dot (`odbc.f`) in a form
+they cannot read back, and miss the modules of fypp sources (stdlib).
