@@ -4,8 +4,10 @@ title: The index format
 
 # The index format
 
-`index.toml` follows schema 1 of FoBiS.py's package indexes. FoBiS refuses an index with an unknown key: a typo is an
-error, not a silently ignored field.
+`index.toml` follows schema 1 of FoBiS.py's package indexes. `fobis index check` (run by this repository's check
+workflow) refuses an unknown key: a typo is an error, not a silently ignored field. Readers (`search`, `info`, `add`)
+of FoBiS.py 3.15 or newer ignore a key they do not know, with a note: a field added by a newer FoBiS.py never breaks
+an older one.
 
 ```toml
 schema      = 1
@@ -49,7 +51,7 @@ recipe      = "recipes/json-fortran.toml"
 
 No versions, dependencies or hashes. The versions are the source's tags (read by `fobis info` and `fobis add`), the
 dependencies are declared by each package's own fobos or fpm.toml, and the content hashes are recorded by each
-project's lock file. An entry with `version = ...` is refused.
+project's lock file. An entry with `version = ...` is refused by `fobis index check`, and ignored by readers.
 
 ## Validate it
 
